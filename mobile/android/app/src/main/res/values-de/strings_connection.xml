@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="can_t_reach_your_computer_directly">Dein Computer ist nicht direkt erreichbar</string>
+    <string name="your_network_may_be_blocking_a_direct_connectio">Dein Netzwerk blockiert möglicherweise eine direkte Verbindung. AGY Remote kann die Verbindung über ein öffentliches Relay leiten. Sie bleibt Ende-zu-Ende-verschlüsselt: Das Relay kann nichts mitlesen, sieht aber, dass dein Smartphone und dein Computer miteinander kommunizieren. Du kannst das in den Einstellungen ändern.</string>
+    <string name="use_relay">Relay verwenden</string>
+    <string name="reconnecting">Verbindung wird wiederhergestellt…</string>
+    <string name="couldn_t_start_the_reply_on_the_computer">Die Antwort konnte auf dem Computer nicht gestartet werden.</string>
+</resources>

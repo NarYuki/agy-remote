@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="push_failed_title">%s — विफल</string>
+    <string name="push_approval_needed">मंज़ूरी ज़रूरी है</string>
+    <string name="push_you_can_reply_now">आप अब जवाब दे सकते हैं</string>
+    <string name="push_cli_released_body">%s: agy CLI सेशन रिलीज़ हो गया है। इसे अपने फ़ोन से जारी रखें।</string>
+    <string name="push_answer_needed">जवाब चाहिए</string>
+    <string name="push_failed_length">जवाब लंबाई की सीमा तक पहुँच गया और अधूरा रह गया।</string>
+    <string name="push_failed_steps">एजेंट एक बारी के लिए अपनी चरण सीमा तक पहुँच गया।</string>
+    <string name="push_failed_refusal">मॉडल ने जारी रखने से इनकार कर दिया।</string>
+    <string name="push_failed_agy">कंप्यूटर पर agy उपलब्ध नहीं है।</string>
+    <string name="push_failed_open_in_cli">यह चैट agy CLI में खुली है। यहाँ जवाब देने के लिए उसे वहाँ बंद करें।</string>
+    <string name="push_failed_other">कंप्यूटर पर कुछ गड़बड़ हो गई।</string>
+    <string name="push_new_activity">नई गतिविधि</string>
+    <string name="push_unavailable_on_x">%1$s: सूचनाएं उपलब्ध नहीं हैं (%2$s)</string>
+    <string name="push_couldnt_turn_on">सूचनाएं चालू नहीं की जा सकीं: %s</string>
+</resources>

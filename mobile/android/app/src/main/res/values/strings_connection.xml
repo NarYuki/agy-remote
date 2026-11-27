@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="can_t_reach_your_computer_directly">Can\'t reach your computer directly</string>
+    <string name="your_network_may_be_blocking_a_direct_connectio">Your network may be blocking a direct connection. AGY Remote can pass the connection through a public relay. It stays end-to-end encrypted: the relay can\'t read it, but it can see that your phone and computer are talking. You can change this in Settings.</string>
+    <string name="use_relay">Use Relay</string>
+    <string name="reconnecting">Reconnecting…</string>
+    <string name="couldn_t_start_the_reply_on_the_computer">Couldn\'t start the reply on the computer.</string>
+</resources>

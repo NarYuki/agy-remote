@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="push_failed_title">%s — gagal</string>
+    <string name="push_approval_needed">Kelulusan diperlukan</string>
+    <string name="push_you_can_reply_now">Anda boleh membalas sekarang</string>
+    <string name="push_cli_released_body">%s: Sesi agy CLI dilepaskan. Teruskan dari telefon anda.</string>
+    <string name="push_answer_needed">Jawapan diperlukan</string>
+    <string name="push_failed_length">Balasan mencapai had panjang dan terpotong.</string>
+    <string name="push_failed_steps">Ejen mencapai had langkah untuk satu giliran.</string>
+    <string name="push_failed_refusal">Model menolak untuk meneruskan.</string>
+    <string name="push_failed_agy">agy tidak tersedia pada komputer.</string>
+    <string name="push_failed_open_in_cli">Sembang ini sedang dibuka dalam agy CLI. Tutup di sana untuk membalas di sini.</string>
+    <string name="push_failed_other">Berlaku ralat pada komputer.</string>
+    <string name="push_new_activity">Aktiviti baharu</string>
+    <string name="push_unavailable_on_x">%1$s: pemberitahuan tidak tersedia (%2$s)</string>
+    <string name="push_couldnt_turn_on">Tidak dapat menghidupkan pemberitahuan: %s</string>
+</resources>

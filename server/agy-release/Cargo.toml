@@ -1,0 +1,13 @@
+[package]
+name = "agy-release"
+version = "0.1.0"
+edition = "2024"
+license = "AGPL-3.0-only"
+description = "Maintainer tool: creates the release signing key and signs update manifests. Not shipped."
+publish = false
+
+[dependencies]
+iroh = { workspace = true }
+data-encoding = { workspace = true }
+rand = { workspace = true }
+sha2 = "0.11"

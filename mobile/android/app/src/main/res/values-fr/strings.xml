@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="open_on_github">Ouvrir sur GitHub</string>
+    <string name="source_code">Code source</string>
+    <string name="privacy_policy">Politique de confidentialité</string>
+    <string name="demo_badge">Démo</string>
+    <string name="menu">Menu</string>
+    <string name="jump_to_bottom">Aller au plus récent</string>
+    <string name="limit_gauge">Limite du forfait</string>
+    <string name="x_commands_from_agy">%d commandes et compétences depuis agy connecté</string>
+    <string name="search_files">Rechercher des fichiers</string>
+    <string name="search_commands">Rechercher des commandes</string>
+    <string name="flow_phone">Téléphone</string>
+    <string name="locked_until_phone">Verrouillé jusqu’à réception sur votre téléphone</string>
+    <string name="relay_alert_title">Utiliser un relais ?</string>
+    <string name="relay_alert_text">Impossible de joindre %s directement. AGY Remote peut faire passer la connexion par un relais public. Elle reste chiffrée de bout en bout.</string>
+    <string name="relay_alert_allow">Utiliser le relais</string>
+    <string name="error_generic">Une erreur est survenue</string>
+    <string name="protocol_update_app">Mettez à jour AGY Remote pour utiliser le connecteur de cet ordinateur.</string>
+    <string name="protocol_update_connector">Mettez à jour agy-connector sur votre ordinateur pour utiliser cette application.</string>
+    <string name="low_limit_x">Il reste %d %% de la limite de votre forfait</string>
+    <string name="open_in_cli_short">Ouvrir dans la CLI</string>
+    <string name="use_a_tool">Utiliser un outil</string>
+    <string name="x_more">… %d de plus</string>
+    <string name="connector_too_old_footer">Cette app nécessite agy-connector %s ou une version ultérieure. Sur cet ordinateur, exécutez agy-connector update, puis redémarrez-le.</string>
+    <string name="unpair_confirm_title">Dissocier %1$s ?</string>
+    <string name="unpair_confirm_message">Vous devrez scanner à nouveau son code d’association pour vous reconnecter.</string>
+    <string name="licenses_android_libraries">Bibliothèques Android</string>
+    <string name="licenses_native_libraries">Bibliothèques natives (Rust)</string>
+    <string name="licenses_search">Rechercher des bibliothèques</string>
+    <string name="licenses_author">Auteur</string>
+    <string name="licenses_source">Source</string>
+    <string name="licenses_license_text">Texte de la licence</string>
+    <string name="licenses_notice">Avis</string>
+    <string name="licenses_no_results">Aucun résultat</string>
+    <string name="model_label_a11y">Modèle : %s</string>
+    <string name="mode_label_a11y">Mode : %s</string>
+    <string name="workspace_files">Fichiers de l\'espace de travail</string>
+    <string name="filter_files">Filtrer les fichiers…</string>
+    <string name="loading_workspace_files">Chargement des fichiers de l\'espace de travail…</string>
+    <string name="loading_workspace_files_from_x">Chargement des fichiers de l\'espace de travail depuis %s…</string>
+    <string name="no_matching_files">Aucun fichier correspondant</string>
+    <string name="attach_files_from_your_computer">Joindre des fichiers depuis votre ordinateur</string>
+    <string name="search_commands_skills">Rechercher des commandes et compétences…</string>
+</resources>

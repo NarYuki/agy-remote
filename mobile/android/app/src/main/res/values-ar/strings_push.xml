@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="push_failed_title">%s — فشل</string>
+    <string name="push_approval_needed">مطلوب الموافقة</string>
+    <string name="push_you_can_reply_now">يمكنك الرد الآن</string>
+    <string name="push_cli_released_body">%s: تم تحرير جلسة agy CLI. تابعها من هاتفك.</string>
+    <string name="push_answer_needed">مطلوب إجابة</string>
+    <string name="push_failed_length">بلغ الرد الحد الأقصى للطول وانقطع.</string>
+    <string name="push_failed_steps">بلغ الوكيل الحد الأقصى للخطوات في جولة واحدة.</string>
+    <string name="push_failed_refusal">رفض النموذج المتابعة.</string>
+    <string name="push_failed_agy">agy غير متوفر على الكمبيوتر.</string>
+    <string name="push_failed_open_in_cli">هذه المحادثة مفتوحة في agy CLI. أغلقها هناك للرد من هنا.</string>
+    <string name="push_failed_other">حدث خطأ ما على الكمبيوتر.</string>
+    <string name="push_new_activity">نشاط جديد</string>
+    <string name="push_unavailable_on_x">%1$s: الإشعارات غير متوفرة (%2$s)</string>
+    <string name="push_couldnt_turn_on">تعذر تفعيل الإشعارات: %s</string>
+</resources>

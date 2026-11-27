@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="push_failed_title">%s — ไม่สำเร็จ</string>
+    <string name="push_approval_needed">ต้องการการอนุมัติ</string>
+    <string name="push_you_can_reply_now">คุณสามารถตอบกลับได้แล้ว</string>
+    <string name="push_cli_released_body">%s: ปล่อยเซสชัน agy CLI แล้ว ดำเนินการต่อจากโทรศัพท์ของคุณ</string>
+    <string name="push_answer_needed">ต้องการคำตอบ</string>
+    <string name="push_failed_length">คำตอบถึงขีดจำกัดความยาวจึงถูกตัดทอน</string>
+    <string name="push_failed_steps">เอเจนต์ดำเนินการครบจำนวนขั้นตอนสูงสุดต่อรอบแล้ว</string>
+    <string name="push_failed_refusal">โมเดลปฏิเสธที่จะดำเนินการต่อ</string>
+    <string name="push_failed_agy">agy ไม่พร้อมใช้งานบนคอมพิวเตอร์</string>
+    <string name="push_failed_open_in_cli">แชทนี้เปิดอยู่ใน agy CLI ปิดที่นั่นก่อนเพื่อตอบกลับที่นี่</string>
+    <string name="push_failed_other">เกิดข้อผิดพลาดบางอย่างบนคอมพิวเตอร์</string>
+    <string name="push_new_activity">กิจกรรมใหม่</string>
+    <string name="push_unavailable_on_x">%1$s: การแจ้งเตือนไม่พร้อมใช้งาน (%2$s)</string>
+    <string name="push_couldnt_turn_on">ไม่สามารถเปิดการแจ้งเตือนได้: %s</string>
+</resources>

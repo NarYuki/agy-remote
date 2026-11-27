@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="push_failed_title">%s — 失敗</string>
+    <string name="push_approval_needed">需要核准</string>
+    <string name="push_you_can_reply_now">現在可以回覆</string>
+    <string name="push_cli_released_body">%s：agy CLI 工作階段已釋放。可在手機上繼續。</string>
+    <string name="push_answer_needed">需要回覆</string>
+    <string name="push_failed_length">回覆已達長度上限並遭到截斷。</string>
+    <string name="push_failed_steps">代理程式已達單輪步驟上限。</string>
+    <string name="push_failed_refusal">模型拒絕繼續執行。</string>
+    <string name="push_failed_agy">電腦上的 agy 無法使用。</string>
+    <string name="push_failed_open_in_cli">此對話已在 agy CLI 中開啟。請先在該處關閉，再於此回覆。</string>
+    <string name="push_failed_other">電腦端發生錯誤。</string>
+    <string name="push_new_activity">新動態</string>
+    <string name="push_unavailable_on_x">%1$s：無法使用通知（%2$s）</string>
+    <string name="push_couldnt_turn_on">無法開啟通知：%s</string>
+</resources>

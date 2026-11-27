@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="push_failed_title">%s — сәтсіз аяқталды</string>
+    <string name="push_approval_needed">Растау қажет</string>
+    <string name="push_you_can_reply_now">Енді жауап бере аласыз</string>
+    <string name="push_cli_released_body">%s: agy CLI сессиясы босатылды. Телефоныңыздан жалғастырыңыз.</string>
+    <string name="push_answer_needed">Жауап қажет</string>
+    <string name="push_failed_length">Жауап ұзындық шегіне жетіп, үзіліп қалды.</string>
+    <string name="push_failed_steps">Агент бір кезеңдегі қадам шегіне жетті.</string>
+    <string name="push_failed_refusal">Модель жалғастырудан бас тартты.</string>
+    <string name="push_failed_agy">Компьютерде agy қолжетімді емес.</string>
+    <string name="push_failed_open_in_cli">Бұл чат agy CLI-да ашық. Мұнда жауап беру үшін оны сонда жабыңыз.</string>
+    <string name="push_failed_other">Компьютерде қате орын алды.</string>
+    <string name="push_new_activity">Жаңа белсенділік</string>
+    <string name="push_unavailable_on_x">%1$s: хабарландырулар қолжетімсіз (%2$s)</string>
+    <string name="push_couldnt_turn_on">Хабарландыруларды қосу мүмкін болмады: %s</string>
+</resources>

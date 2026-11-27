@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="can_t_reach_your_computer_directly">Impossible de joindre votre ordinateur directement</string>
+    <string name="your_network_may_be_blocking_a_direct_connectio">Votre réseau bloque peut-être les connexions directes. AGY Remote peut faire passer la connexion par un relais public. Elle reste chiffrée de bout en bout : le relais ne peut pas en lire le contenu, mais il peut voir que votre téléphone et votre ordinateur communiquent. Vous pouvez modifier cela dans Réglages.</string>
+    <string name="use_relay">Utiliser le relais</string>
+    <string name="reconnecting">Reconnexion…</string>
+    <string name="couldn_t_start_the_reply_on_the_computer">Impossible de démarrer la réponse sur l\'ordinateur.</string>
+</resources>

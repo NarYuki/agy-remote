@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="can_t_reach_your_computer_directly">Bilgisayarınıza doğrudan ulaşılamıyor</string>
+    <string name="your_network_may_be_blocking_a_direct_connectio">Ağınız doğrudan bağlantıyı engelliyor olabilir. AGY Remote, bağlantıyı herkese açık bir aktarıcı üzerinden yönlendirebilir. Bağlantı uçtan uca şifreli kalır: aktarıcı içeriği okuyamaz ancak telefonunuzla bilgisayarınızın iletişim kurduğunu görebilir. Bunu Ayarlar\'dan değiştirebilirsiniz.</string>
+    <string name="use_relay">Aktarıcı Kullan</string>
+    <string name="reconnecting">Yeniden bağlanılıyor…</string>
+    <string name="couldn_t_start_the_reply_on_the_computer">Bilgisayarda yanıt başlatılamadı.</string>
+</resources>

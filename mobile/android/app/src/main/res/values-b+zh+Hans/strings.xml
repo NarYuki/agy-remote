@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="open_on_github">在 GitHub 上打开</string>
+    <string name="source_code">源代码</string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="demo_badge">演示</string>
+    <string name="menu">菜单</string>
+    <string name="jump_to_bottom">跳至最新</string>
+    <string name="limit_gauge">套餐额度</string>
+    <string name="x_commands_from_agy">来自已连接 agy 的 %d 项命令与技能</string>
+    <string name="search_files">搜索文件</string>
+    <string name="search_commands">搜索命令</string>
+    <string name="flow_phone">手机</string>
+    <string name="locked_until_phone">送达你的手机前保持锁定</string>
+    <string name="relay_alert_title">使用中继？</string>
+    <string name="relay_alert_text">无法直接连接到 %s。AGY Remote 可以通过公共中继转发连接，且全程保持端到端加密。</string>
+    <string name="relay_alert_allow">使用中继</string>
+    <string name="error_generic">出错了</string>
+    <string name="protocol_update_app">请更新 AGY Remote 以使用此电脑的连接器。</string>
+    <string name="protocol_update_connector">请在电脑上更新 agy-connector 以使用此应用。</string>
+    <string name="low_limit_x">套餐额度剩余 %d%%</string>
+    <string name="open_in_cli_short">在 CLI 中打开</string>
+    <string name="use_a_tool">使用工具</string>
+    <string name="x_more">… 还有 %d 项</string>
+    <string name="connector_too_old_footer">此应用需要 agy-connector %s 或更高版本。请在此电脑上运行 agy-connector update，然后重新启动。</string>
+    <string name="unpair_confirm_title">取消与 %1$s 的配对？</string>
+    <string name="unpair_confirm_message">重新连接需要再次扫描其配对码。</string>
+    <string name="licenses_android_libraries">Android 库</string>
+    <string name="licenses_native_libraries">原生（Rust）库</string>
+    <string name="licenses_search">搜索库</string>
+    <string name="licenses_author">作者</string>
+    <string name="licenses_source">来源</string>
+    <string name="licenses_license_text">许可证文本</string>
+    <string name="licenses_notice">声明</string>
+    <string name="licenses_no_results">无结果</string>
+    <string name="model_label_a11y">模型：%s</string>
+    <string name="mode_label_a11y">模式：%s</string>
+    <string name="workspace_files">工作区文件</string>
+    <string name="filter_files">筛选文件…</string>
+    <string name="loading_workspace_files">正在加载工作区文件…</string>
+    <string name="loading_workspace_files_from_x">正在从 %s 加载工作区文件…</string>
+    <string name="no_matching_files">无匹配文件</string>
+    <string name="attach_files_from_your_computer">从电脑附加文件</string>
+    <string name="search_commands_skills">搜索命令和技能…</string>
+</resources>

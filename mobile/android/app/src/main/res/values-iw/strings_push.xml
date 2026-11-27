@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="push_failed_title">%s — נכשל</string>
+    <string name="push_approval_needed">נדרש אישור</string>
+    <string name="push_you_can_reply_now">אפשר להשיב עכשיו</string>
+    <string name="push_cli_released_body">%s: סשן agy CLI שוחרר. אפשר להמשיך אותו מהטלפון.</string>
+    <string name="push_answer_needed">נדרשת תשובה</string>
+    <string name="push_failed_length">התשובה הגיעה למגבלת האורך ונקטעה.</string>
+    <string name="push_failed_steps">הסוכן הגיע למגבלת השלבים לתור אחד.</string>
+    <string name="push_failed_refusal">המודל סירב להמשיך.</string>
+    <string name="push_failed_agy">agy לא זמין במחשב.</string>
+    <string name="push_failed_open_in_cli">הצ\'אט הזה פתוח ב-agy CLI. יש לסגור אותו שם כדי להשיב כאן.</string>
+    <string name="push_failed_other">משהו השתבש במחשב.</string>
+    <string name="push_new_activity">פעילות חדשה</string>
+    <string name="push_unavailable_on_x">%1$s: התראות לא זמינות (%2$s)</string>
+    <string name="push_couldnt_turn_on">לא ניתן להפעיל התראות: %s</string>
+</resources>

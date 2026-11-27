@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="open_on_github">Открыть на GitHub</string>
+    <string name="source_code">Исходный код</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="demo_badge">Демо</string>
+    <string name="menu">Меню</string>
+    <string name="jump_to_bottom">К последним</string>
+    <string name="limit_gauge">Лимит тарифа</string>
+    <string name="x_commands_from_agy">Команд и навыков из подключённого agy: %d</string>
+    <string name="search_files">Поиск файлов</string>
+    <string name="search_commands">Поиск команд</string>
+    <string name="flow_phone">Телефон</string>
+    <string name="locked_until_phone">Заблокировано до доставки на телефон</string>
+    <string name="relay_alert_title">Использовать ретранслятор?</string>
+    <string name="relay_alert_text">Не удаётся подключиться к %s напрямую. AGY Remote может установить соединение через публичный ретранслятор. Сквозное шифрование сохранится.</string>
+    <string name="relay_alert_allow">Использовать ретранслятор</string>
+    <string name="error_generic">Что-то пошло не так</string>
+    <string name="protocol_update_app">Обновите AGY Remote для работы с коннектором на этом компьютере.</string>
+    <string name="protocol_update_connector">Обновите agy-connector на компьютере для работы с этим приложением.</string>
+    <string name="low_limit_x">Осталось %d%% лимита тарифа</string>
+    <string name="open_in_cli_short">Открыть в CLI</string>
+    <string name="use_a_tool">Использовать инструмент</string>
+    <string name="x_more">… и ещё %d</string>
+    <string name="connector_too_old_footer">Для работы приложения требуется agy-connector %s или новее. На этом компьютере выполните команду agy-connector update, затем перезапустите agy-connector.</string>
+    <string name="unpair_confirm_title">Отвязать %1$s?</string>
+    <string name="unpair_confirm_message">Чтобы подключиться снова, потребуется повторно отсканировать код сопряжения.</string>
+    <string name="licenses_android_libraries">Библиотеки Android</string>
+    <string name="licenses_native_libraries">Нативные библиотеки (Rust)</string>
+    <string name="licenses_search">Поиск библиотек</string>
+    <string name="licenses_author">Автор</string>
+    <string name="licenses_source">Исходный код</string>
+    <string name="licenses_license_text">Текст лицензии</string>
+    <string name="licenses_notice">Уведомление</string>
+    <string name="licenses_no_results">Ничего не найдено</string>
+    <string name="model_label_a11y">Модель: %s</string>
+    <string name="mode_label_a11y">Режим: %s</string>
+    <string name="workspace_files">Файлы рабочей области</string>
+    <string name="filter_files">Фильтр файлов…</string>
+    <string name="loading_workspace_files">Загрузка файлов рабочей области…</string>
+    <string name="loading_workspace_files_from_x">Загрузка файлов рабочей области из %s…</string>
+    <string name="no_matching_files">Нет подходящих файлов</string>
+    <string name="attach_files_from_your_computer">Прикрепить файлы с компьютера</string>
+    <string name="search_commands_skills">Поиск команд и навыков…</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="can_t_reach_your_computer_directly">Não foi possível conectar diretamente ao seu computador</string>
+    <string name="your_network_may_be_blocking_a_direct_connectio">Sua rede pode estar bloqueando uma conexão direta. O AGY Remote pode encaminhar a conexão por um servidor de retransmissão público. Ela continua criptografada de ponta a ponta: o servidor não consegue lê-la, mas pode ver que seu celular e seu computador estão se comunicando. Você pode alterar isso em Configurações.</string>
+    <string name="use_relay">Usar retransmissão</string>
+    <string name="reconnecting">Reconectando…</string>
+    <string name="couldn_t_start_the_reply_on_the_computer">Não foi possível iniciar a resposta no computador.</string>
+</resources>

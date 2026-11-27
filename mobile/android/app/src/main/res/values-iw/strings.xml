@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="open_on_github">פתיחה ב-GitHub</string>
+    <string name="source_code">קוד מקור</string>
+    <string name="privacy_policy">מדיניות פרטיות</string>
+    <string name="demo_badge">הדגמה</string>
+    <string name="menu">תפריט</string>
+    <string name="jump_to_bottom">קפיצה לאחרון</string>
+    <string name="limit_gauge">מכסת התוכנית</string>
+    <string name="x_commands_from_agy">%d פקודות וכישורים מ-agy המחובר</string>
+    <string name="search_files">חיפוש קבצים</string>
+    <string name="search_commands">חיפוש פקודות</string>
+    <string name="flow_phone">טלפון</string>
+    <string name="locked_until_phone">נעול עד שיגיע לטלפון שלך</string>
+    <string name="relay_alert_title">להשתמש בשרת ממסר?</string>
+    <string name="relay_alert_text">לא ניתן להתחבר ישירות אל %s. AGY Remote יכולה להעביר את החיבור דרך שרת ממסר ציבורי. החיבור נשאר מוצפן מקצה לקצה.</string>
+    <string name="relay_alert_allow">שימוש בשרת ממסר</string>
+    <string name="error_generic">משהו השתבש</string>
+    <string name="protocol_update_app">יש לעדכן את AGY Remote כדי להשתמש ב-connector של המחשב הזה.</string>
+    <string name="protocol_update_connector">יש לעדכן את agy-connector במחשב שלך כדי להשתמש באפליקציה הזו.</string>
+    <string name="low_limit_x">נותרו %d%% ממכסת התוכנית שלך</string>
+    <string name="open_in_cli_short">פתיחה ב-CLI</string>
+    <string name="use_a_tool">שימוש בכלי</string>
+    <string name="x_more">… עוד %d</string>
+    <string name="connector_too_old_footer">אפליקציה זו דורשת agy-connector %s ומעלה. במחשב זה, יש להריץ agy-connector update ולאחר מכן להפעיל אותו מחדש.</string>
+    <string name="unpair_confirm_title">לבטל את הצימוד עם %1$s?</string>
+    <string name="unpair_confirm_message">כדי להתחבר מחדש, יהיה עליך לסרוק שוב את קוד הצימוד שלו.</string>
+    <string name="licenses_android_libraries">ספריות Android</string>
+    <string name="licenses_native_libraries">ספריות Native (Rust)</string>
+    <string name="licenses_search">חיפוש ספריות</string>
+    <string name="licenses_author">מחבר</string>
+    <string name="licenses_source">מקור</string>
+    <string name="licenses_license_text">נוסח הרישיון</string>
+    <string name="licenses_notice">הודעה</string>
+    <string name="licenses_no_results">אין תוצאות</string>
+    <string name="model_label_a11y">מודל: %s</string>
+    <string name="mode_label_a11y">מצב: %s</string>
+    <string name="workspace_files">קבצי סביבת העבודה</string>
+    <string name="filter_files">סינון קבצים…</string>
+    <string name="loading_workspace_files">טוען את קבצי סביבת העבודה…</string>
+    <string name="loading_workspace_files_from_x">טוען את קבצי סביבת העבודה מ-%s…</string>
+    <string name="no_matching_files">אין קבצים תואמים</string>
+    <string name="attach_files_from_your_computer">צירוף קבצים מהמחשב שלך</string>
+    <string name="search_commands_skills">חיפוש פקודות ומיומנויות…</string>
+</resources>

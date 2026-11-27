@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="push_failed_title">%s — başarısız</string>
+    <string name="push_approval_needed">Onay gerekiyor</string>
+    <string name="push_you_can_reply_now">Şimdi yanıtlayabilirsiniz</string>
+    <string name="push_cli_released_body">%s: agy CLI oturumu serbest bırakıldı. Telefonunuzdan devam edin.</string>
+    <string name="push_answer_needed">Yanıt gerekiyor</string>
+    <string name="push_failed_length">Yanıt uzunluk sınırına ulaştı ve yarıda kesildi.</string>
+    <string name="push_failed_steps">Ajan tek tur için adım sınırına ulaştı.</string>
+    <string name="push_failed_refusal">Model devam etmeyi reddetti.</string>
+    <string name="push_failed_agy">Bilgisayarda agy kullanılamıyor.</string>
+    <string name="push_failed_open_in_cli">Bu sohbet agy CLI\'da açık. Buradan yanıtlamak için orada kapatın.</string>
+    <string name="push_failed_other">Bilgisayarda bir sorun oluştu.</string>
+    <string name="push_new_activity">Yeni etkinlik</string>
+    <string name="push_unavailable_on_x">%1$s: bildirimler kullanılamıyor (%2$s)</string>
+    <string name="push_couldnt_turn_on">Bildirimler açılamadı: %s</string>
+</resources>

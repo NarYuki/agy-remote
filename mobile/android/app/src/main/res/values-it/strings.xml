@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="open_on_github">Apri su GitHub</string>
+    <string name="source_code">Codice sorgente</string>
+    <string name="privacy_policy">Informativa sulla privacy</string>
+    <string name="demo_badge">Demo</string>
+    <string name="menu">Menu</string>
+    <string name="jump_to_bottom">Vai ai più recenti</string>
+    <string name="limit_gauge">Limite del piano</string>
+    <string name="x_commands_from_agy">%d comandi e skill da agy connesso</string>
+    <string name="search_files">Cerca file</string>
+    <string name="search_commands">Cerca comandi</string>
+    <string name="flow_phone">Telefono</string>
+    <string name="locked_until_phone">Bloccato finché non raggiunge il telefono</string>
+    <string name="relay_alert_title">Usare un relay?</string>
+    <string name="relay_alert_text">Impossibile raggiungere direttamente %s. AGY Remote può instradare la connessione tramite un relay pubblico. Rimane crittografata end-to-end.</string>
+    <string name="relay_alert_allow">Usa relay</string>
+    <string name="error_generic">Qualcosa è andato storto</string>
+    <string name="protocol_update_app">Aggiorna AGY Remote per usare il connettore di questo computer.</string>
+    <string name="protocol_update_connector">Aggiorna agy-connector sul computer per usare questa app.</string>
+    <string name="low_limit_x">%d%% del limite del piano rimanente</string>
+    <string name="open_in_cli_short">Apri nella CLI</string>
+    <string name="use_a_tool">Usa uno strumento</string>
+    <string name="x_more">… altri %d</string>
+    <string name="connector_too_old_footer">Questa app richiede agy-connector %s o versioni successive. Su questo computer, esegui agy-connector update e poi riavvialo.</string>
+    <string name="unpair_confirm_title">Disassociare %1$s?</string>
+    <string name="unpair_confirm_message">Per riconnetterti dovrai scansionare di nuovo il codice di associazione.</string>
+    <string name="licenses_android_libraries">Librerie Android</string>
+    <string name="licenses_native_libraries">Librerie native (Rust)</string>
+    <string name="licenses_search">Cerca librerie</string>
+    <string name="licenses_author">Autore</string>
+    <string name="licenses_source">Sorgente</string>
+    <string name="licenses_license_text">Testo della licenza</string>
+    <string name="licenses_notice">Avviso</string>
+    <string name="licenses_no_results">Nessun risultato</string>
+    <string name="model_label_a11y">Modello: %s</string>
+    <string name="mode_label_a11y">Modalità: %s</string>
+    <string name="workspace_files">File del workspace</string>
+    <string name="filter_files">Filtra file…</string>
+    <string name="loading_workspace_files">Caricamento file del workspace…</string>
+    <string name="loading_workspace_files_from_x">Caricamento file del workspace da %s…</string>
+    <string name="no_matching_files">Nessun file corrispondente</string>
+    <string name="attach_files_from_your_computer">Allega file dal tuo computer</string>
+    <string name="search_commands_skills">Cerca comandi e skill…</string>
+</resources>

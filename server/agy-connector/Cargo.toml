@@ -1,0 +1,32 @@
+[package]
+name = "agy-connector"
+version = "0.2.7"
+edition = "2024"
+license = "AGPL-3.0-only"
+
+[[bin]]
+name = "agy-connector"
+path = "src/main.rs"
+
+[dependencies]
+agy-p2p-common = { path = "../agy-p2p-common" }
+iroh = { workspace = true }
+n0-mainline = { workspace = true }
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+data-encoding = { workspace = true }
+rand = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+clap = { version = "4", features = ["derive"] }
+url = { workspace = true }
+qrcode = { version = "0.14", default-features = false }
+chacha20poly1305 = "0.10"
+sha2 = "0.11"
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls", "json"] }
+
+# Windows on ARM: blake3's NEON C file can't build against the MSVC headers (cargo-xwin),
+# so use its Rust implementation there.
+[target.'cfg(all(windows, target_arch = "aarch64"))'.dependencies]
+blake3 = { version = "1.8", features = ["pure"] }

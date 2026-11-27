@@ -1,0 +1,20 @@
+[package]
+name = "agy-p2p-jni"
+version = "0.1.0"
+edition = "2024"
+license = "AGPL-3.0-only"
+description = "JNI bindings of the AGY Remote P2P client for the Android app (protocol v1)."
+
+[lib]
+name = "agy_p2p_jni"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+agy-p2p-common = { path = "../agy-p2p-common" }
+iroh = { workspace = true }
+n0-mainline = { workspace = true }
+tokio = { workspace = true }
+serde_json = { workspace = true }
+data-encoding = { workspace = true }
+rand = { workspace = true }
+jni = "0.21.1"

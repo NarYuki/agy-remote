@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="open_on_github">Auf GitHub öffnen</string>
+    <string name="source_code">Quellcode</string>
+    <string name="privacy_policy">Datenschutzerklärung</string>
+    <string name="demo_badge">Demo</string>
+    <string name="menu">Menü</string>
+    <string name="jump_to_bottom">Zum Neuesten springen</string>
+    <string name="limit_gauge">Tariflimit</string>
+    <string name="x_commands_from_agy">%d Befehle &amp; Skills vom verbundenen agy</string>
+    <string name="search_files">Dateien durchsuchen</string>
+    <string name="search_commands">Befehle durchsuchen</string>
+    <string name="flow_phone">Telefon</string>
+    <string name="locked_until_phone">Gesperrt, bis es dein Telefon erreicht</string>
+    <string name="relay_alert_title">Relay verwenden?</string>
+    <string name="relay_alert_text">%s ist nicht direkt erreichbar. AGY Remote kann die Verbindung über ein öffentliches Relay leiten. Sie bleibt Ende-zu-Ende-verschlüsselt.</string>
+    <string name="relay_alert_allow">Relay verwenden</string>
+    <string name="error_generic">Etwas ist schiefgelaufen</string>
+    <string name="protocol_update_app">Aktualisiere AGY Remote, um den Connector dieses Computers zu verwenden.</string>
+    <string name="protocol_update_connector">Aktualisiere agy-connector auf deinem Computer, um diese App zu verwenden.</string>
+    <string name="low_limit_x">Noch %d%% deines Tariflimits übrig</string>
+    <string name="open_in_cli_short">In CLI öffnen</string>
+    <string name="use_a_tool">Tool verwenden</string>
+    <string name="x_more">… %d weitere</string>
+    <string name="connector_too_old_footer">Diese App benötigt agy-connector %s oder neuer. Führe auf diesem Computer agy-connector update aus und starte agy-connector dann neu.</string>
+    <string name="unpair_confirm_title">%1$s entkoppeln?</string>
+    <string name="unpair_confirm_message">Du musst den Kopplungscode erneut scannen, um die Verbindung wiederherzustellen.</string>
+    <string name="licenses_android_libraries">Android-Bibliotheken</string>
+    <string name="licenses_native_libraries">Native Bibliotheken (Rust)</string>
+    <string name="licenses_search">Bibliotheken durchsuchen</string>
+    <string name="licenses_author">Autor</string>
+    <string name="licenses_source">Quelle</string>
+    <string name="licenses_license_text">Lizenztext</string>
+    <string name="licenses_notice">Hinweis</string>
+    <string name="licenses_no_results">Keine Ergebnisse</string>
+    <string name="model_label_a11y">Modell: %s</string>
+    <string name="mode_label_a11y">Modus: %s</string>
+    <string name="workspace_files">Workspace-Dateien</string>
+    <string name="filter_files">Dateien filtern…</string>
+    <string name="loading_workspace_files">Workspace-Dateien werden geladen…</string>
+    <string name="loading_workspace_files_from_x">Workspace-Dateien von %s werden geladen…</string>
+    <string name="no_matching_files">Keine passenden Dateien</string>
+    <string name="attach_files_from_your_computer">Dateien von deinem Computer anhängen</string>
+    <string name="search_commands_skills">Befehle &amp; Skills suchen…</string>
+</resources>

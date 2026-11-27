@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="open_on_github">GitHub에서 열기</string>
+    <string name="source_code">소스 코드</string>
+    <string name="privacy_policy">개인정보 처리방침</string>
+    <string name="demo_badge">데모</string>
+    <string name="menu">메뉴</string>
+    <string name="jump_to_bottom">최신으로 이동</string>
+    <string name="limit_gauge">요금제 한도</string>
+    <string name="x_commands_from_agy">연결된 agy의 명령어 및 스킬 %d개</string>
+    <string name="search_files">파일 검색</string>
+    <string name="search_commands">명령어 검색</string>
+    <string name="flow_phone">휴대폰</string>
+    <string name="locked_until_phone">휴대폰에 도착할 때까지 잠금 유지</string>
+    <string name="relay_alert_title">릴레이를 사용할까요?</string>
+    <string name="relay_alert_text">%s에 직접 연결할 수 없습니다. AGY Remote에서 공용 릴레이를 통해 연결할 수 있습니다. 종단 간 암호화는 그대로 유지됩니다.</string>
+    <string name="relay_alert_allow">릴레이 사용</string>
+    <string name="error_generic">문제가 발생했습니다</string>
+    <string name="protocol_update_app">이 컴퓨터의 커넥터를 사용하려면 AGY Remote를 업데이트하세요.</string>
+    <string name="protocol_update_connector">이 앱을 사용하려면 컴퓨터의 agy-connector를 업데이트하세요.</string>
+    <string name="low_limit_x">요금제 한도가 %d%% 남았습니다</string>
+    <string name="open_in_cli_short">CLI에서 열기</string>
+    <string name="use_a_tool">도구 사용</string>
+    <string name="x_more">… %d개 더</string>
+    <string name="connector_too_old_footer">이 앱을 사용하려면 agy-connector %s 이상이 필요합니다. 이 컴퓨터에서 agy-connector update를 실행한 후 다시 시작하세요.</string>
+    <string name="unpair_confirm_title">%1$s 연결을 해제할까요?</string>
+    <string name="unpair_confirm_message">재연결하려면 페어링 코드를 다시 스캔해야 합니다.</string>
+    <string name="licenses_android_libraries">Android 라이브러리</string>
+    <string name="licenses_native_libraries">네이티브(Rust) 라이브러리</string>
+    <string name="licenses_search">라이브러리 검색</string>
+    <string name="licenses_author">작성자</string>
+    <string name="licenses_source">소스</string>
+    <string name="licenses_license_text">라이선스 전문</string>
+    <string name="licenses_notice">고지 사항</string>
+    <string name="licenses_no_results">결과 없음</string>
+    <string name="model_label_a11y">모델: %s</string>
+    <string name="mode_label_a11y">모드: %s</string>
+    <string name="workspace_files">워크스페이스 파일</string>
+    <string name="filter_files">파일 필터링…</string>
+    <string name="loading_workspace_files">워크스페이스 파일 불러오는 중…</string>
+    <string name="loading_workspace_files_from_x">%s에서 워크스페이스 파일 불러오는 중…</string>
+    <string name="no_matching_files">일치하는 파일 없음</string>
+    <string name="attach_files_from_your_computer">컴퓨터에서 파일 첨부</string>
+    <string name="search_commands_skills">명령어 및 스킬 검색…</string>
+</resources>

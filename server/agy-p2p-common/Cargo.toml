@@ -1,0 +1,15 @@
+[package]
+name = "agy-p2p-common"
+version = "0.1.0"
+edition = "2024"
+license = "AGPL-3.0-only"
+
+[dependencies]
+iroh = { workspace = true }
+n0-mainline = { workspace = true }
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+data-encoding = { workspace = true }
+url = { workspace = true }
+tracing = { workspace = true }

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AGYKeychainAccessGroup</key>
+	<string>$(DEVELOPMENT_TEAM).moe.n4tsu.agyremote.shared</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>AGY Remote</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>moe.n4tsu.agyremote.pair</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>agy-rem</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.developer-tools</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Take photos to attach to prompts and scan the pairing code shown by agy-connector.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Connect directly to agy-connector when your computer is on the same network.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Dictate prompts with your voice.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Choose photos and screenshots to attach to prompts.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Turn your speech into prompt text while dictating.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+</dict>
+</plist>

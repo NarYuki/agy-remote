@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="open_on_github">เปิดบน GitHub</string>
+    <string name="source_code">ซอร์สโค้ด</string>
+    <string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="demo_badge">เดโม</string>
+    <string name="menu">เมนู</string>
+    <string name="jump_to_bottom">ไปที่ล่าสุด</string>
+    <string name="limit_gauge">ขีดจำกัดของแผน</string>
+    <string name="x_commands_from_agy">คำสั่งและสกิล %d รายการจาก agy ที่เชื่อมต่อ</string>
+    <string name="search_files">ค้นหาไฟล์</string>
+    <string name="search_commands">ค้นหาคำสั่ง</string>
+    <string name="flow_phone">โทรศัพท์</string>
+    <string name="locked_until_phone">ล็อกไว้จนกว่าจะถึงโทรศัพท์ของคุณ</string>
+    <string name="relay_alert_title">ใช้รีเลย์หรือไม่?</string>
+    <string name="relay_alert_text">ไม่สามารถเชื่อมต่อกับ %s โดยตรงได้ AGY Remote สามารถส่งผ่านการเชื่อมต่อทางรีเลย์สาธารณะได้ โดยยังคงเข้ารหัสแบบต้นทางถึงปลายทาง</string>
+    <string name="relay_alert_allow">ใช้รีเลย์</string>
+    <string name="error_generic">เกิดข้อผิดพลาดบางอย่าง</string>
+    <string name="protocol_update_app">อัปเดต AGY Remote เพื่อใช้ตัวเชื่อมต่อของคอมพิวเตอร์เครื่องนี้</string>
+    <string name="protocol_update_connector">อัปเดต agy-connector บนคอมพิวเตอร์ของคุณเพื่อใช้แอปนี้</string>
+    <string name="low_limit_x">เหลือขีดจำกัดของแผน %d%%</string>
+    <string name="open_in_cli_short">เปิดใน CLI</string>
+    <string name="use_a_tool">ใช้เครื่องมือ</string>
+    <string name="x_more">… อีก %d รายการ</string>
+    <string name="connector_too_old_footer">แอปนี้ต้องใช้ agy-connector %s หรือใหม่กว่า บนคอมพิวเตอร์เครื่องนี้ ให้รัน agy-connector update แล้วรีสตาร์ท</string>
+    <string name="unpair_confirm_title">เลิกจับคู่ %1$s หรือไม่?</string>
+    <string name="unpair_confirm_message">คุณจะต้องสแกนรหัสจับคู่อีกครั้งเพื่อเชื่อมต่อใหม่</string>
+    <string name="licenses_android_libraries">ไลบรารี Android</string>
+    <string name="licenses_native_libraries">ไลบรารีเนทีฟ (Rust)</string>
+    <string name="licenses_search">ค้นหาไลบรารี</string>
+    <string name="licenses_author">ผู้เขียน</string>
+    <string name="licenses_source">แหล่งที่มา</string>
+    <string name="licenses_license_text">ข้อความสัญญาอนุญาต</string>
+    <string name="licenses_notice">ประกาศ</string>
+    <string name="licenses_no_results">ไม่พบผลลัพธ์</string>
+    <string name="model_label_a11y">โมเดล: %s</string>
+    <string name="mode_label_a11y">โหมด: %s</string>
+    <string name="workspace_files">ไฟล์ในเวิร์กสเปซ</string>
+    <string name="filter_files">กรองไฟล์…</string>
+    <string name="loading_workspace_files">กำลังโหลดไฟล์ในเวิร์กสเปซ…</string>
+    <string name="loading_workspace_files_from_x">กำลังโหลดไฟล์ในเวิร์กสเปซจาก %s…</string>
+    <string name="no_matching_files">ไม่พบไฟล์ที่ตรงกัน</string>
+    <string name="attach_files_from_your_computer">แนบไฟล์จากคอมพิวเตอร์ของคุณ</string>
+    <string name="search_commands_skills">ค้นหาคำสั่งและสกิล…</string>
+</resources>

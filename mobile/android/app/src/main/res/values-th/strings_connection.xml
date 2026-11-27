@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="can_t_reach_your_computer_directly">เชื่อมต่อกับคอมพิวเตอร์ของคุณโดยตรงไม่ได้</string>
+    <string name="your_network_may_be_blocking_a_direct_connectio">เครือข่ายของคุณอาจบล็อกการเชื่อมต่อโดยตรง AGY Remote สามารถเชื่อมต่อผ่านรีเลย์สาธารณะได้ ข้อมูลยังคงเข้ารหัสแบบต้นทางถึงปลายทาง รีเลย์ไม่สามารถอ่านข้อมูลได้ แต่จะเห็นว่าโทรศัพท์และคอมพิวเตอร์ของคุณกำลังสื่อสารกันอยู่ คุณสามารถเปลี่ยนได้ในการตั้งค่า</string>
+    <string name="use_relay">ใช้รีเลย์</string>
+    <string name="reconnecting">กำลังเชื่อมต่อใหม่…</string>
+    <string name="couldn_t_start_the_reply_on_the_computer">ไม่สามารถเริ่มการตอบกลับบนคอมพิวเตอร์ได้</string>
+</resources>

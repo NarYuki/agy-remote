@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="push_failed_title">%s — fehlgeschlagen</string>
+    <string name="push_approval_needed">Genehmigung erforderlich</string>
+    <string name="push_you_can_reply_now">Du kannst jetzt antworten</string>
+    <string name="push_cli_released_body">%s: agy-CLI-Sitzung freigegeben. Auf deinem Smartphone fortsetzen.</string>
+    <string name="push_answer_needed">Antwort erforderlich</string>
+    <string name="push_failed_length">Die Antwort hat das Längenlimit erreicht und wurde abgeschnitten.</string>
+    <string name="push_failed_steps">Der Agent hat das Schrittlimit für einen Durchgang erreicht.</string>
+    <string name="push_failed_refusal">Das Modell hat es abgelehnt, fortzufahren.</string>
+    <string name="push_failed_agy">agy ist auf dem Computer nicht verfügbar.</string>
+    <string name="push_failed_open_in_cli">Dieser Chat ist in der agy CLI geöffnet. Schließe ihn dort, um hier zu antworten.</string>
+    <string name="push_failed_other">Auf dem Computer ist ein Fehler aufgetreten.</string>
+    <string name="push_new_activity">Neue Aktivität</string>
+    <string name="push_unavailable_on_x">%1$s: Benachrichtigungen nicht verfügbar (%2$s)</string>
+    <string name="push_couldnt_turn_on">Benachrichtigungen konnten nicht aktiviert werden: %s</string>
+</resources>

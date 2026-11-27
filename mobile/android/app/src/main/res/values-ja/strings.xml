@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="open_on_github">GitHubで開く</string>
+    <string name="source_code">ソースコード</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
+    <string name="demo_badge">デモ</string>
+    <string name="menu">メニュー</string>
+    <string name="jump_to_bottom">最新へ移動</string>
+    <string name="limit_gauge">プラン上限</string>
+    <string name="x_commands_from_agy">接続中のagyのコマンドとスキル（%d件）</string>
+    <string name="search_files">ファイルを検索</string>
+    <string name="search_commands">コマンドを検索</string>
+    <string name="flow_phone">スマートフォン</string>
+    <string name="locked_until_phone">スマートフォンに届くまでロックされます</string>
+    <string name="relay_alert_title">リレーを使用しますか？</string>
+    <string name="relay_alert_text">%sに直接接続できません。AGY Remoteは公開リレーを経由して接続できます。エンドツーエンド暗号化は維持されます。</string>
+    <string name="relay_alert_allow">リレーを使用</string>
+    <string name="error_generic">エラーが発生しました</string>
+    <string name="protocol_update_app">このコンピューターのコネクタを使用するには、AGY Remoteをアップデートしてください。</string>
+    <string name="protocol_update_connector">このアプリを使用するには、コンピューターのagy-connectorをアップデートしてください。</string>
+    <string name="low_limit_x">プラン上限まで残り%d%%</string>
+    <string name="open_in_cli_short">CLIで開く</string>
+    <string name="use_a_tool">ツールを使用</string>
+    <string name="x_more">…他%d件</string>
+    <string name="connector_too_old_footer">このアプリには agy-connector %s 以降が必要です。このコンピュータで agy-connector update を実行し、agy-connector を再起動してください。</string>
+    <string name="unpair_confirm_title">%1$sのペアリングを解除しますか？</string>
+    <string name="unpair_confirm_message">再接続するには、ペアリングコードをもう一度スキャンする必要があります。</string>
+    <string name="licenses_android_libraries">Androidライブラリ</string>
+    <string name="licenses_native_libraries">ネイティブ（Rust）ライブラリ</string>
+    <string name="licenses_search">ライブラリを検索</string>
+    <string name="licenses_author">作成者</string>
+    <string name="licenses_source">ソース</string>
+    <string name="licenses_license_text">ライセンス本文</string>
+    <string name="licenses_notice">注記</string>
+    <string name="licenses_no_results">結果がありません</string>
+    <string name="model_label_a11y">モデル: %s</string>
+    <string name="mode_label_a11y">モード: %s</string>
+    <string name="workspace_files">ワークスペースファイル</string>
+    <string name="filter_files">ファイルを絞り込む…</string>
+    <string name="loading_workspace_files">ワークスペースファイルを読み込み中…</string>
+    <string name="loading_workspace_files_from_x">%sからワークスペースファイルを読み込み中…</string>
+    <string name="no_matching_files">一致するファイルがありません</string>
+    <string name="attach_files_from_your_computer">コンピューターからファイルを添付</string>
+    <string name="search_commands_skills">コマンドやスキルを検索…</string>
+</resources>

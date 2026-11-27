@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="open_on_github">GitHub\'da Aç</string>
+    <string name="source_code">Kaynak Kodu</string>
+    <string name="privacy_policy">Gizlilik Politikası</string>
+    <string name="demo_badge">Demo</string>
+    <string name="menu">Menü</string>
+    <string name="jump_to_bottom">En sona git</string>
+    <string name="limit_gauge">Plan limiti</string>
+    <string name="x_commands_from_agy">Bağlı agy\'den %d komut ve beceri</string>
+    <string name="search_files">Dosya ara</string>
+    <string name="search_commands">Komut ara</string>
+    <string name="flow_phone">Telefon</string>
+    <string name="locked_until_phone">Telefonunuza ulaşana kadar kilitli</string>
+    <string name="relay_alert_title">Aktarım sunucusu kullanılsın mı?</string>
+    <string name="relay_alert_text">%s ile doğrudan bağlantı kurulamıyor. AGY Remote, bağlantıyı herkese açık bir aktarım sunucusu üzerinden yönlendirebilir. Bağlantı uçtan uca şifreli kalır.</string>
+    <string name="relay_alert_allow">Aktarım Sunucusu Kullan</string>
+    <string name="error_generic">Bir sorun oluştu</string>
+    <string name="protocol_update_app">Bu bilgisayardaki bağlayıcıyı kullanmak için AGY Remote\'u güncelleyin.</string>
+    <string name="protocol_update_connector">Bu uygulamayı kullanmak için bilgisayarınızdaki agy-connector sürümünü güncelleyin.</string>
+    <string name="low_limit_x">Plan limitinizin %%%d kadarı kaldı</string>
+    <string name="open_in_cli_short">CLI\'da aç</string>
+    <string name="use_a_tool">Araç kullan</string>
+    <string name="x_more">… %d tane daha</string>
+    <string name="connector_too_old_footer">Bu uygulama için agy-connector %s veya üzeri gerekir. Bu bilgisayarda agy-connector update komutunu çalıştırın, ardından yeniden başlatın.</string>
+    <string name="unpair_confirm_title">%1$s eşleştirmesi kaldırılsın mı?</string>
+    <string name="unpair_confirm_message">Yeniden bağlanmak için eşleştirme kodunu tekrar taramanız gerekecek.</string>
+    <string name="licenses_android_libraries">Android kütüphaneleri</string>
+    <string name="licenses_native_libraries">Yerel (Rust) kütüphaneler</string>
+    <string name="licenses_search">Kütüphane ara</string>
+    <string name="licenses_author">Yazar</string>
+    <string name="licenses_source">Kaynak</string>
+    <string name="licenses_license_text">Lisans metni</string>
+    <string name="licenses_notice">Bildirim</string>
+    <string name="licenses_no_results">Sonuç bulunamadı</string>
+    <string name="model_label_a11y">Model: %s</string>
+    <string name="mode_label_a11y">Mod: %s</string>
+    <string name="workspace_files">Çalışma Alanı Dosyaları</string>
+    <string name="filter_files">Dosyaları filtrele…</string>
+    <string name="loading_workspace_files">Çalışma alanı dosyaları yükleniyor…</string>
+    <string name="loading_workspace_files_from_x">%s konumundan çalışma alanı dosyaları yükleniyor…</string>
+    <string name="no_matching_files">Eşleşen dosya yok</string>
+    <string name="attach_files_from_your_computer">Bilgisayarınızdan dosya ekleyin</string>
+    <string name="search_commands_skills">Komut ve beceri ara…</string>
+</resources>

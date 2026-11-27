@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="can_t_reach_your_computer_directly">आपके कंप्यूटर से सीधे कनेक्ट नहीं हो सका</string>
+    <string name="your_network_may_be_blocking_a_direct_connectio">हो सकता है आपका नेटवर्क सीधे कनेक्शन को ब्लॉक कर रहा हो। AGY Remote पब्लिक रिले के ज़रिए कनेक्ट कर सकता है। कनेक्शन एंड-टू-एंड एन्क्रिप्टेड रहता है: रिले इसे पढ़ नहीं सकता, लेकिन देख सकता है कि आपका फ़ोन और कंप्यूटर आपस में बात कर रहे हैं। आप इसे सेटिंग्स में बदल सकते हैं।</string>
+    <string name="use_relay">रिले का उपयोग करें</string>
+    <string name="reconnecting">फिर से कनेक्ट हो रहा है…</string>
+    <string name="couldn_t_start_the_reply_on_the_computer">कंप्यूटर पर जवाब शुरू नहीं किया जा सका।</string>
+</resources>

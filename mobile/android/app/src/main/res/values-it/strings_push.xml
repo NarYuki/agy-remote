@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="push_failed_title">%s — non riuscito</string>
+    <string name="push_approval_needed">Approvazione richiesta</string>
+    <string name="push_you_can_reply_now">Ora puoi rispondere</string>
+    <string name="push_cli_released_body">%s: sessione CLI di agy rilasciata. Continuala dal telefono.</string>
+    <string name="push_answer_needed">Risposta richiesta</string>
+    <string name="push_failed_length">La risposta ha raggiunto il limite di lunghezza ed è stata troncata.</string>
+    <string name="push_failed_steps">L\'agente ha raggiunto il limite di passaggi per un turno.</string>
+    <string name="push_failed_refusal">Il modello ha rifiutato di continuare.</string>
+    <string name="push_failed_agy">agy non è disponibile sul computer.</string>
+    <string name="push_failed_open_in_cli">Questa chat è aperta nella CLI di agy. Chiudila lì per rispondere qui.</string>
+    <string name="push_failed_other">Qualcosa è andato storto sul computer.</string>
+    <string name="push_new_activity">Nuova attività</string>
+    <string name="push_unavailable_on_x">%1$s: notifiche non disponibili (%2$s)</string>
+    <string name="push_couldnt_turn_on">Impossibile attivare le notifiche: %s</string>
+</resources>

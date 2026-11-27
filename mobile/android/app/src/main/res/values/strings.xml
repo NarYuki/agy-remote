@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App strings that aren't in the iOS string catalog yet (translated in values-*/strings.xml; the catalog
+     strings are in strings_catalog.xml, generated for all 20 languages). -->
+<resources>
+    <string name="agy_remote_title" translatable="false">AGY Remote</string>
+    <string name="brand" translatable="false">Agy</string>
+    <string name="github" translatable="false">GitHub</string>
+    <string name="open_on_github">Open on GitHub</string>
+    <string name="source_code">Source Code</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="demo_badge">Demo</string>
+    <string name="menu">Menu</string>
+    <string name="jump_to_bottom">Jump to latest</string>
+    <string name="limit_gauge">Plan limit</string>
+    <string name="x_commands_from_agy">%d commands &amp; skills from connected agy</string>
+    <string name="search_files">Search files</string>
+    <string name="search_commands">Search commands</string>
+    <string name="flow_push" translatable="false">Google</string>
+    <string name="flow_phone">Phone</string>
+    <string name="locked_until_phone">Locked until it reaches your phone</string>
+    <string name="relay_alert_title">Use a relay?</string>
+    <string name="relay_alert_text">%s can\'t be reached directly. AGY Remote can pass the connection through a public relay. It stays end-to-end encrypted.</string>
+    <string name="relay_alert_allow">Use Relay</string>
+    <string name="error_generic">Something went wrong</string>
+    <string name="protocol_update_app">Update AGY Remote to use this computer\'s connector.</string>
+    <string name="protocol_update_connector">Update agy-connector on your computer to use this app.</string>
+    <string name="low_limit_x">%d%% of your plan limit left</string>
+    <string name="mode_default" translatable="false">Default</string>
+    <string name="mode_accept_edits" translatable="false">Accept edits</string>
+    <string name="mode_auto" translatable="false">Auto</string>
+    <string name="mode_plan" translatable="false">Plan</string>
+    <string name="mode_turbo" translatable="false">Turbo</string>
+    <string name="open_in_cli_short">Open in CLI</string>
+    <string name="seconds_short" translatable="false">%ds</string>
+    <string name="minutes_seconds_short" translatable="false">%1$dm %2$ds</string>
+    <string name="hours_minutes_short" translatable="false">%1$dh %2$dm</string>
+    <string name="use_a_tool">Use a tool</string>
+    <string name="x_more">… %d more</string>
+    <string name="connector_too_old_footer">This app needs agy-connector %s or newer. On this computer, run agy-connector update, then restart it.</string>
+    <string name="unpair_confirm_title">Unpair %1$s?</string>
+    <string name="unpair_confirm_message">You\'ll need to scan its pairing code again to reconnect.</string>
+    <string name="licenses_android_libraries">Android libraries</string>
+    <string name="licenses_native_libraries">Native (Rust) libraries</string>
+    <string name="licenses_search">Search libraries</string>
+    <string name="licenses_author">Author</string>
+    <string name="licenses_source">Source</string>
+    <string name="licenses_license_text">License text</string>
+    <string name="licenses_notice">Notice</string>
+    <string name="licenses_no_results">No results</string>
+    <string name="model_label_a11y">Model: %s</string>
+    <string name="mode_label_a11y">Mode: %s</string>
+    <string name="workspace_files">Workspace Files</string>
+    <string name="filter_files">Filter files…</string>
+    <string name="loading_workspace_files">Loading workspace files…</string>
+    <string name="loading_workspace_files_from_x">Loading workspace files from %s…</string>
+    <string name="no_matching_files">No matching files</string>
+    <string name="attach_files_from_your_computer">Attach files from your computer</string>
+    <string name="search_commands_skills">Search commands &amp; skills…</string>
+</resources>

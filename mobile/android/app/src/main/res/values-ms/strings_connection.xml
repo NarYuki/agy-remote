@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="can_t_reach_your_computer_directly">Tidak dapat mencapai komputer anda secara terus</string>
+    <string name="your_network_may_be_blocking_a_direct_connectio">Rangkaian anda mungkin menyekat sambungan terus. AGY Remote boleh menghalakan sambungan melalui geganti awam. Ia kekal disulitkan hujung ke hujung: geganti tidak dapat membacanya, tetapi dapat melihat telefon dan komputer anda sedang berkomunikasi. Anda boleh mengubahnya dalam Tetapan.</string>
+    <string name="use_relay">Guna Geganti</string>
+    <string name="reconnecting">Menyambung semula…</string>
+    <string name="couldn_t_start_the_reply_on_the_computer">Tidak dapat memulakan balasan pada komputer.</string>
+</resources>

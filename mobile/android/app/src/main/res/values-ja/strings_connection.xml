@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="can_t_reach_your_computer_directly">コンピュータに直接接続できません</string>
+    <string name="your_network_may_be_blocking_a_direct_connectio">ネットワークによって直接接続がブロックされている可能性があります。AGY Remoteは公開リレーを経由して接続できます。通信はエンドツーエンドで暗号化されたままとなるため、リレーは内容を読み取れませんが、スマートフォンとコンピュータが通信していることは確認できます。この設定は「設定」から変更できます。</string>
+    <string name="use_relay">リレーを使用</string>
+    <string name="reconnecting">再接続中…</string>
+    <string name="couldn_t_start_the_reply_on_the_computer">コンピュータで応答を開始できませんでした。</string>
+</resources>

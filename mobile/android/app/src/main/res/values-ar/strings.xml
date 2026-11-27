@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="open_on_github">فتح على GitHub</string>
+    <string name="source_code">الكود المصدري</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="demo_badge">تجريبي</string>
+    <string name="menu">القائمة</string>
+    <string name="jump_to_bottom">الانتقال إلى الأحدث</string>
+    <string name="limit_gauge">حد الخطة</string>
+    <string name="x_commands_from_agy">%d من الأوامر والمهارات من agy المتصل</string>
+    <string name="search_files">البحث في الملفات</string>
+    <string name="search_commands">البحث في الأوامر</string>
+    <string name="flow_phone">الهاتف</string>
+    <string name="locked_until_phone">مقفل حتى يصل إلى هاتفك</string>
+    <string name="relay_alert_title">استخدام خادم ترحيل؟</string>
+    <string name="relay_alert_text">تعذّر الوصول إلى %s مباشرةً. يمكن لـ AGY Remote تمرير الاتصال عبر خادم ترحيل عام. يظل الاتصال مشفّرًا من طرف إلى طرف.</string>
+    <string name="relay_alert_allow">استخدام خادم ترحيل</string>
+    <string name="error_generic">حدث خطأ ما</string>
+    <string name="protocol_update_app">حدّث AGY Remote لاستخدام موصّل هذا الكمبيوتر.</string>
+    <string name="protocol_update_connector">حدّث agy-connector على جهاز الكمبيوتر لاستخدام هذا التطبيق.</string>
+    <string name="low_limit_x">تبقّى %d%% من حد خطتك</string>
+    <string name="open_in_cli_short">فتح في CLI</string>
+    <string name="use_a_tool">استخدام أداة</string>
+    <string name="x_more">… و%d أخرى</string>
+    <string name="connector_too_old_footer">يتطلب هذا التطبيق agy-connector %s أو أحدث. على هذا الكمبيوتر، شغّل agy-connector update، ثم أعد تشغيله.</string>
+    <string name="unpair_confirm_title">إلغاء إقران %1$s؟</string>
+    <string name="unpair_confirm_message">ستحتاج إلى مسح رمز الإقران الخاص به مرة أخرى لإعادة الاتصال.</string>
+    <string name="licenses_android_libraries">مكتبات Android</string>
+    <string name="licenses_native_libraries">المكتبات الأصلية (Rust)</string>
+    <string name="licenses_search">البحث في المكتبات</string>
+    <string name="licenses_author">المؤلف</string>
+    <string name="licenses_source">المصدر</string>
+    <string name="licenses_license_text">نص الترخيص</string>
+    <string name="licenses_notice">إشعار</string>
+    <string name="licenses_no_results">لا توجد نتائج</string>
+    <string name="model_label_a11y">النموذج: %s</string>
+    <string name="mode_label_a11y">الوضع: %s</string>
+    <string name="workspace_files">ملفات مساحة العمل</string>
+    <string name="filter_files">تصفية الملفات…</string>
+    <string name="loading_workspace_files">جارٍ تحميل ملفات مساحة العمل…</string>
+    <string name="loading_workspace_files_from_x">جارٍ تحميل ملفات مساحة العمل من %s…</string>
+    <string name="no_matching_files">لا توجد ملفات مطابقة</string>
+    <string name="attach_files_from_your_computer">إرفاق ملفات من جهاز الكمبيوتر</string>
+    <string name="search_commands_skills">البحث في الأوامر والمهارات…</string>
+</resources>

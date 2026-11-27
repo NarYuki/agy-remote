@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="open_on_github">GitHub पर खोलें</string>
+    <string name="source_code">सोर्स कोड</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="demo_badge">डेमो</string>
+    <string name="menu">मेनू</string>
+    <string name="jump_to_bottom">नवीनतम पर जाएँ</string>
+    <string name="limit_gauge">प्लान सीमा</string>
+    <string name="x_commands_from_agy">कनेक्टेड agy से %d कमांड और स्किल्स</string>
+    <string name="search_files">फ़ाइलें खोजें</string>
+    <string name="search_commands">कमांड खोजें</string>
+    <string name="flow_phone">फ़ोन</string>
+    <string name="locked_until_phone">आपके फ़ोन तक पहुँचने तक लॉक</string>
+    <string name="relay_alert_title">रिले का उपयोग करें?</string>
+    <string name="relay_alert_text">%s तक सीधे पहुँचा नहीं जा सकता। AGY Remote इस कनेक्शन को सार्वजनिक रिले के ज़रिए भेज सकता है। यह एंड-टू-एंड एन्क्रिप्टेड रहता है।</string>
+    <string name="relay_alert_allow">रिले उपयोग करें</string>
+    <string name="error_generic">कुछ गड़बड़ हो गई</string>
+    <string name="protocol_update_app">इस कंप्यूटर के कनेक्टर का उपयोग करने के लिए AGY Remote को अपडेट करें।</string>
+    <string name="protocol_update_connector">इस ऐप का उपयोग करने के लिए अपने कंप्यूटर पर agy-connector को अपडेट करें।</string>
+    <string name="low_limit_x">आपकी प्लान सीमा का %d%% शेष है</string>
+    <string name="open_in_cli_short">CLI में खोलें</string>
+    <string name="use_a_tool">टूल का उपयोग करें</string>
+    <string name="x_more">… %d और</string>
+    <string name="connector_too_old_footer">इस ऐप के लिए agy-connector %s या उससे नया वर्ज़न ज़रूरी है। इस कंप्यूटर पर agy-connector update चलाएं और फिर इसे रीस्टार्ट करें।</string>
+    <string name="unpair_confirm_title">%1$s को अनपेयर करें?</string>
+    <string name="unpair_confirm_message">फिर से कनेक्ट करने के लिए आपको इसका पेयरिंग कोड दोबारा स्कैन करना होगा।</string>
+    <string name="licenses_android_libraries">Android लाइब्रेरी</string>
+    <string name="licenses_native_libraries">नेटिव (Rust) लाइब्रेरी</string>
+    <string name="licenses_search">लाइब्रेरी खोजें</string>
+    <string name="licenses_author">लेखक</string>
+    <string name="licenses_source">स्रोत</string>
+    <string name="licenses_license_text">लाइसेंस टेक्स्ट</string>
+    <string name="licenses_notice">सूचना</string>
+    <string name="licenses_no_results">कोई परिणाम नहीं</string>
+    <string name="model_label_a11y">मॉडल: %s</string>
+    <string name="mode_label_a11y">मोड: %s</string>
+    <string name="workspace_files">वर्कस्पेस फ़ाइलें</string>
+    <string name="filter_files">फ़ाइलें फ़िल्टर करें…</string>
+    <string name="loading_workspace_files">वर्कस्पेस फ़ाइलें लोड हो रही हैं…</string>
+    <string name="loading_workspace_files_from_x">%s से वर्कस्पेस फ़ाइलें लोड हो रही हैं…</string>
+    <string name="no_matching_files">कोई मेल खाने वाली फ़ाइल नहीं</string>
+    <string name="attach_files_from_your_computer">अपने कंप्यूटर से फ़ाइलें अटैच करें</string>
+    <string name="search_commands_skills">कमांड और स्किल खोजें…</string>
+</resources>

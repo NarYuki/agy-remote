@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="can_t_reach_your_computer_directly">Kan je computer niet rechtstreeks bereiken</string>
+    <string name="your_network_may_be_blocking_a_direct_connectio">Je netwerk blokkeert mogelijk een rechtstreekse verbinding. AGY Remote kan de verbinding via een openbare relay laten lopen. Deze blijft end-to-end versleuteld: de relay kan niet meelezen, maar ziet wel dat je telefoon en computer met elkaar communiceren. Je kunt dit wijzigen in Instellingen.</string>
+    <string name="use_relay">Gebruik relay</string>
+    <string name="reconnecting">Opnieuw verbinden…</string>
+    <string name="couldn_t_start_the_reply_on_the_computer">Kon het antwoord op de computer niet starten.</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="can_t_reach_your_computer_directly">לא ניתן להתחבר ישירות למחשב שלך</string>
+    <string name="your_network_may_be_blocking_a_direct_connectio">ייתכן שהרשת שלך חוסמת חיבור ישיר. באפשרות AGY Remote להעביר את החיבור דרך ממסר ציבורי. החיבור נשאר מוצפן מקצה לקצה: הממסר לא יכול לקרוא אותו, אבל הוא יכול לראות שהטלפון והמחשב שלך מתקשרים ביניהם. ניתן לשנות זאת בהגדרות.</string>
+    <string name="use_relay">שימוש בממסר</string>
+    <string name="reconnecting">מתחבר מחדש…</string>
+    <string name="couldn_t_start_the_reply_on_the_computer">לא ניתן היה להתחיל את התגובה במחשב.</string>
+</resources>

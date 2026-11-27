@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="open_on_github">Abrir no GitHub</string>
+    <string name="source_code">Código-fonte</string>
+    <string name="privacy_policy">Política de Privacidade</string>
+    <string name="demo_badge">Demo</string>
+    <string name="menu">Menu</string>
+    <string name="jump_to_bottom">Ir para o mais recente</string>
+    <string name="limit_gauge">Limite do plano</string>
+    <string name="x_commands_from_agy">%d comandos e skills do agy conectado</string>
+    <string name="search_files">Buscar arquivos</string>
+    <string name="search_commands">Buscar comandos</string>
+    <string name="flow_phone">Celular</string>
+    <string name="locked_until_phone">Bloqueado até chegar ao seu celular</string>
+    <string name="relay_alert_title">Usar um relay?</string>
+    <string name="relay_alert_text">Não foi possível conectar diretamente a %s. O AGY Remote pode rotear a conexão por um relay público. Ela continua criptografada de ponta a ponta.</string>
+    <string name="relay_alert_allow">Usar relay</string>
+    <string name="error_generic">Algo deu errado</string>
+    <string name="protocol_update_app">Atualize o AGY Remote para usar o conector deste computador.</string>
+    <string name="protocol_update_connector">Atualize o agy-connector no seu computador para usar este app.</string>
+    <string name="low_limit_x">Restam %d%% do limite do seu plano</string>
+    <string name="open_in_cli_short">Abrir na CLI</string>
+    <string name="use_a_tool">Usar uma ferramenta</string>
+    <string name="x_more">… mais %d</string>
+    <string name="connector_too_old_footer">Este app precisa do agy-connector %s ou mais recente. Neste computador, execute agy-connector update e depois reinicie-o.</string>
+    <string name="unpair_confirm_title">Desemparelhar %1$s?</string>
+    <string name="unpair_confirm_message">Você precisará escanear o código de emparelhamento novamente para reconectar.</string>
+    <string name="licenses_android_libraries">Bibliotecas Android</string>
+    <string name="licenses_native_libraries">Bibliotecas nativas (Rust)</string>
+    <string name="licenses_search">Buscar bibliotecas</string>
+    <string name="licenses_author">Autor</string>
+    <string name="licenses_source">Código-fonte</string>
+    <string name="licenses_license_text">Texto da licença</string>
+    <string name="licenses_notice">Aviso</string>
+    <string name="licenses_no_results">Nenhum resultado</string>
+    <string name="model_label_a11y">Modelo: %s</string>
+    <string name="mode_label_a11y">Modo: %s</string>
+    <string name="workspace_files">Arquivos do workspace</string>
+    <string name="filter_files">Filtrar arquivos…</string>
+    <string name="loading_workspace_files">Carregando arquivos do workspace…</string>
+    <string name="loading_workspace_files_from_x">Carregando arquivos do workspace de %s…</string>
+    <string name="no_matching_files">Nenhum arquivo correspondente</string>
+    <string name="attach_files_from_your_computer">Anexar arquivos do seu computador</string>
+    <string name="search_commands_skills">Buscar comandos e skills…</string>
+</resources>

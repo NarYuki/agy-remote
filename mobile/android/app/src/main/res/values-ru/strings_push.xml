@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="push_failed_title">%s — ошибка</string>
+    <string name="push_approval_needed">Требуется подтверждение</string>
+    <string name="push_you_can_reply_now">Теперь можно ответить</string>
+    <string name="push_cli_released_body">%s: сессия agy CLI освобождена. Продолжите с телефона.</string>
+    <string name="push_answer_needed">Нужен ответ</string>
+    <string name="push_failed_length">Ответ достиг лимита длины и был обрезан.</string>
+    <string name="push_failed_steps">Агент достиг лимита шагов за один ход.</string>
+    <string name="push_failed_refusal">Модель отказалась продолжать.</string>
+    <string name="push_failed_agy">agy недоступен на компьютере.</string>
+    <string name="push_failed_open_in_cli">Этот чат открыт в agy CLI. Закройте его там, чтобы ответить здесь.</string>
+    <string name="push_failed_other">На компьютере что-то пошло не так.</string>
+    <string name="push_new_activity">Новая активность</string>
+    <string name="push_unavailable_on_x">%1$s: уведомления недоступны (%2$s)</string>
+    <string name="push_couldnt_turn_on">Не удалось включить уведомления: %s</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="open_on_github">Open op GitHub</string>
+    <string name="source_code">Broncode</string>
+    <string name="privacy_policy">Privacybeleid</string>
+    <string name="demo_badge">Demo</string>
+    <string name="menu">Menu</string>
+    <string name="jump_to_bottom">Ga naar nieuwste</string>
+    <string name="limit_gauge">Abonnementslimiet</string>
+    <string name="x_commands_from_agy">%d commando\'s en skills van verbonden agy</string>
+    <string name="search_files">Bestanden zoeken</string>
+    <string name="search_commands">Commando\'s zoeken</string>
+    <string name="flow_phone">Telefoon</string>
+    <string name="locked_until_phone">Vergrendeld tot het je telefoon bereikt</string>
+    <string name="relay_alert_title">Relay gebruiken?</string>
+    <string name="relay_alert_text">%s is niet rechtstreeks bereikbaar. AGY Remote kan de verbinding via een openbare relay laten lopen. Deze blijft end-to-end versleuteld.</string>
+    <string name="relay_alert_allow">Relay gebruiken</string>
+    <string name="error_generic">Er is iets misgegaan</string>
+    <string name="protocol_update_app">Werk AGY Remote bij om de connector van deze computer te gebruiken.</string>
+    <string name="protocol_update_connector">Werk agy-connector op je computer bij om deze app te gebruiken.</string>
+    <string name="low_limit_x">Nog %d%% van je abonnementslimiet over</string>
+    <string name="open_in_cli_short">Openen in CLI</string>
+    <string name="use_a_tool">Tool gebruiken</string>
+    <string name="x_more">… nog %d</string>
+    <string name="connector_too_old_footer">Deze app heeft agy-connector %s of nieuwer nodig. Voer op deze computer agy-connector update uit en start agy-connector daarna opnieuw.</string>
+    <string name="unpair_confirm_title">%1$s ontkoppelen?</string>
+    <string name="unpair_confirm_message">Je moet de koppelingscode opnieuw scannen om weer verbinding te maken.</string>
+    <string name="licenses_android_libraries">Android-bibliotheken</string>
+    <string name="licenses_native_libraries">Native bibliotheken (Rust)</string>
+    <string name="licenses_search">Bibliotheken zoeken</string>
+    <string name="licenses_author">Auteur</string>
+    <string name="licenses_source">Bron</string>
+    <string name="licenses_license_text">Licentietekst</string>
+    <string name="licenses_notice">Kennisgeving</string>
+    <string name="licenses_no_results">Geen resultaten</string>
+    <string name="model_label_a11y">Model: %s</string>
+    <string name="mode_label_a11y">Modus: %s</string>
+    <string name="workspace_files">Werkruimtebestanden</string>
+    <string name="filter_files">Bestanden filteren…</string>
+    <string name="loading_workspace_files">Werkruimtebestanden laden…</string>
+    <string name="loading_workspace_files_from_x">Werkruimtebestanden van %s laden…</string>
+    <string name="no_matching_files">Geen overeenkomende bestanden</string>
+    <string name="attach_files_from_your_computer">Bestanden van je computer bijvoegen</string>
+    <string name="search_commands_skills">Opdrachten en skills zoeken…</string>
+</resources>

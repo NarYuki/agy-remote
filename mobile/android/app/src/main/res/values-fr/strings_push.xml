@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="push_failed_title">%s — échec</string>
+    <string name="push_approval_needed">Approbation requise</string>
+    <string name="push_you_can_reply_now">Vous pouvez répondre maintenant</string>
+    <string name="push_cli_released_body">%s : session CLI agy libérée. Poursuivez-la depuis votre téléphone.</string>
+    <string name="push_answer_needed">Réponse requise</string>
+    <string name="push_failed_length">La réponse a atteint sa limite de longueur et a été tronquée.</string>
+    <string name="push_failed_steps">L\'agent a atteint sa limite d\'étapes pour un tour.</string>
+    <string name="push_failed_refusal">Le modèle a refusé de continuer.</string>
+    <string name="push_failed_agy">agy n\'est pas disponible sur l\'ordinateur.</string>
+    <string name="push_failed_open_in_cli">Cette discussion est ouverte dans la CLI agy. Fermez-la pour répondre ici.</string>
+    <string name="push_failed_other">Une erreur s\'est produite sur l\'ordinateur.</string>
+    <string name="push_new_activity">Nouvelle activité</string>
+    <string name="push_unavailable_on_x">%1$s : notifications indisponibles (%2$s)</string>
+    <string name="push_couldnt_turn_on">Impossible d\'activer les notifications : %s</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="push_failed_title">%s — 失敗</string>
+    <string name="push_approval_needed">承認が必要です</string>
+    <string name="push_you_can_reply_now">返信できます</string>
+    <string name="push_cli_released_body">%s: agy CLIセッションが解放されました。スマートフォンから続行できます。</string>
+    <string name="push_answer_needed">回答が必要です</string>
+    <string name="push_failed_length">返信が長さの上限に達したため、途中で途切れました。</string>
+    <string name="push_failed_steps">エージェントが1ターンのステップ上限に達しました。</string>
+    <string name="push_failed_refusal">モデルが続行を拒否しました。</string>
+    <string name="push_failed_agy">コンピューターでagyを利用できません。</string>
+    <string name="push_failed_open_in_cli">このチャットはagy CLIで開かれています。ここから返信するにはagy CLIで閉じてください。</string>
+    <string name="push_failed_other">コンピューターで問題が発生しました。</string>
+    <string name="push_new_activity">新しいアクティビティ</string>
+    <string name="push_unavailable_on_x">%1$s: 通知を利用できません（%2$s）</string>
+    <string name="push_couldnt_turn_on">通知をオンにできませんでした: %s</string>
+</resources>

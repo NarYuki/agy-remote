@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="can_t_reach_your_computer_directly">無法直接連線到你的電腦</string>
+    <string name="your_network_may_be_blocking_a_direct_connectio">你的網路可能封鎖了直接連線。AGY Remote 可透過公開中繼伺服器轉送連線。連線仍維持端對端加密：中繼伺服器無法讀取內容，但能得知你的手機和電腦正在通訊。你可以在「設定」中更改此選項。</string>
+    <string name="use_relay">使用中繼伺服器</string>
+    <string name="reconnecting">正在重新連線…</string>
+    <string name="couldn_t_start_the_reply_on_the_computer">無法在電腦上開始回覆。</string>
+</resources>

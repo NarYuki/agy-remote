@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="can_t_reach_your_computer_directly">Không thể kết nối trực tiếp với máy tính của bạn</string>
+    <string name="your_network_may_be_blocking_a_direct_connectio">Mạng của bạn có thể đang chặn kết nối trực tiếp. AGY Remote có thể chuyển kết nối qua máy chủ chuyển tiếp công khai. Kết nối vẫn được mã hóa đầu cuối: máy chủ chuyển tiếp không thể đọc nội dung, nhưng có thể thấy điện thoại và máy tính của bạn đang trao đổi với nhau. Bạn có thể thay đổi tùy chọn này trong Cài đặt.</string>
+    <string name="use_relay">Dùng máy chủ chuyển tiếp</string>
+    <string name="reconnecting">Đang kết nối lại…</string>
+    <string name="couldn_t_start_the_reply_on_the_computer">Không thể bắt đầu phản hồi trên máy tính.</string>
+</resources>

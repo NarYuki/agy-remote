@@ -1,0 +1,20 @@
+[package]
+name = "agy-p2p-ffi"
+version = "0.1.0"
+edition = "2024"
+license = "AGPL-3.0-only"
+
+[lib]
+name = "agy_p2p_ffi"
+crate-type = ["staticlib", "rlib"]
+
+[dependencies]
+agy-p2p-common = { path = "../agy-p2p-common" }
+iroh = { workspace = true }
+n0-mainline = { workspace = true }
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+data-encoding = { workspace = true }
+rand = { workspace = true }
+tracing = { workspace = true }

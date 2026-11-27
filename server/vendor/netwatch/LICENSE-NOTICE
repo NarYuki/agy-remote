@@ -1,0 +1,5 @@
+netwatch is part of net-tools by n0, inc. (https://github.com/n0-computer/net-tools),
+licensed under either of the Apache License, Version 2.0
+(https://www.apache.org/licenses/LICENSE-2.0) or the MIT license
+(https://opensource.org/licenses/MIT), at your option.
+The published crate (0.19.3) ships without license files; this notice records its terms.

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="can_t_reach_your_computer_directly">Компьютеріңізге тікелей қосылу мүмкін емес</string>
+    <string name="your_network_may_be_blocking_a_direct_connectio">Желіңіз тікелей қосылымды бұғаттап тұрған болуы мүмкін. AGY Remote қосылымды жалпыға ортақ ретранслятор арқылы өткізе алады. Ол өтпелі шифрлаумен қорғалған күйінде қалады: ретранслятор оны оқи алмайды, бірақ телефоныңыз бен компьютеріңіздің байланысып жатқанын көре алады. Мұны Баптауларда өзгерте аласыз.</string>
+    <string name="use_relay">Ретрансляторды пайдалану</string>
+    <string name="reconnecting">Қайта қосылуда…</string>
+    <string name="couldn_t_start_the_reply_on_the_computer">Компьютерде жауапты бастау мүмкін болмады.</string>
+</resources>

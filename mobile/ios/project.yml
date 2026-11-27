@@ -1,0 +1,155 @@
+name: AntigravityRemote
+options:
+  bundleIdPrefix: moe.n4tsu
+  developmentLanguage: en
+  deploymentTarget:
+    iOS: "26.0"
+    watchOS: "26.0"
+  xcodeVersion: "26.5"
+# Signing team: copy Config/Signing.local.xcconfig.example to Config/Signing.local.xcconfig (gitignored).
+configFiles:
+  Debug: Config/Signing.xcconfig
+  Release: Config/Signing.xcconfig
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    MARKETING_VERSION: "1.2.0"
+    CURRENT_PROJECT_VERSION: "3"
+    GENERATE_INFOPLIST_FILE: YES
+    INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+    INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+    INFOPLIST_KEY_UILaunchScreen_Generation: YES
+    INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: "UIInterfaceOrientationPortrait"
+    INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+    INFOPLIST_KEY_CFBundleDisplayName: "AGY Remote"
+    ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: YES
+    LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+    SWIFT_EMIT_LOC_STRINGS: YES
+targets:
+  AntigravityRemote:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+        excludes:
+          - "Bridge/*.h"
+          - "*.entitlements"
+      - path: Shared
+      - path: WatchShared
+    dependencies:
+      - target: NotificationService
+      - target: AGYRemoteWatch
+      - framework: Frameworks/AgyP2PCore.xcframework
+        embed: false
+      - sdk: libresolv.tbd
+      - sdk: Security.framework
+      - sdk: SystemConfiguration.framework
+    info:
+      path: Sources/Info.plist
+      properties:
+        CFBundleDisplayName: AGY Remote
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        ITSAppUsesNonExemptEncryption: false
+        AGYKeychainAccessGroup: $(DEVELOPMENT_TEAM).moe.n4tsu.agyremote.shared
+        LSApplicationCategoryType: public.app-category.developer-tools
+        # Background pushes carry the notification relay's grants to the app (nothing is shown).
+        UIBackgroundModes: [remote-notification]
+        NSCameraUsageDescription: "Take photos to attach to prompts and scan the pairing code shown by agy-connector."
+        NSPhotoLibraryUsageDescription: "Choose photos and screenshots to attach to prompts."
+        NSMicrophoneUsageDescription: "Dictate prompts with your voice."
+        NSSpeechRecognitionUsageDescription: "Turn your speech into prompt text while dictating."
+        NSLocalNetworkUsageDescription: "Connect directly to agy-connector when your computer is on the same network."
+        CFBundleURLTypes:
+          - CFBundleTypeRole: Editor
+            CFBundleURLName: moe.n4tsu.agyremote.pair
+            CFBundleURLSchemes:
+              - agy-rem
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: moe.n4tsu.agyremote
+        TARGETED_DEVICE_FAMILY: "1,2"
+        CODE_SIGN_STYLE: Automatic
+        SWIFT_OBJC_BRIDGING_HEADER: Sources/Bridge/AgyP2P-Bridging-Header.h
+        CODE_SIGN_ENTITLEMENTS: Sources/AGYRemote.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+      configs:
+        Release:
+          CODE_SIGN_ENTITLEMENTS: Sources/AGYRemote.Release.entitlements
+  NotificationService:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: NotificationService
+        excludes:
+          - "*.entitlements"
+          - Info.plist
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: moe.n4tsu.agyremote.notifications
+        CODE_SIGN_STYLE: Automatic
+        INFOPLIST_FILE: NotificationService/Info.plist
+        CODE_SIGN_ENTITLEMENTS: NotificationService/NotificationService.entitlements
+        SWIFT_VERSION: "6.0"
+  AGYRemoteWatch:
+    type: application
+    platform: watchOS
+    sources:
+      - path: Watch
+        excludes:
+          - "*.entitlements"
+      - path: WatchShared
+      - path: WatchKitShared
+    dependencies:
+      - target: AGYRemoteWatchWidgets
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: moe.n4tsu.agyremote.watchkitapp
+        PRODUCT_NAME: AGYRemoteWatch
+        CODE_SIGN_STYLE: Automatic
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: "AGY Remote"
+        INFOPLIST_KEY_WKCompanionAppBundleIdentifier: moe.n4tsu.agyremote
+        INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_ENTITLEMENTS: Watch/AGYRemoteWatch.entitlements
+        SKIP_INSTALL: YES
+        TARGETED_DEVICE_FAMILY: "4"
+  AGYRemoteWatchWidgets:
+    type: app-extension
+    platform: watchOS
+    sources:
+      - path: WatchWidgets
+        excludes:
+          - "*.entitlements"
+      - path: WatchShared
+      - path: WatchKitShared
+    info:
+      path: WatchWidgets/Info.plist
+      properties:
+        CFBundleDisplayName: AGY Remote
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: moe.n4tsu.agyremote.watchkitapp.widgets
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_ENTITLEMENTS: WatchWidgets/WatchWidgets.entitlements
+        SKIP_INSTALL: YES
+        TARGETED_DEVICE_FAMILY: "4"
+schemes:
+  AntigravityRemote:
+    build:
+      targets:
+        AntigravityRemote: all
+    run:
+      config: Debug
+  AGYRemoteWatch:
+    build:
+      targets:
+        AGYRemoteWatch: all
+    run:
+      config: Debug

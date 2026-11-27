@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AGY Remote — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; --fg: #1d1d1f; --muted: #6e6e73; --bg: #fff; --line: #e5e5ea; --accent: #1ad1b8; }
+  @media (prefers-color-scheme: dark) { :root { --fg: #f5f5f7; --muted: #a1a1a6; --bg: #000; --line: #2c2c2e; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Segoe UI", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 36px 0 8px; }
+  p, li { color: var(--fg); }
+  .muted { color: var(--muted); font-size: 14px; }
+  code { font: 14px ui-monospace, SFMono-Regular, Menlo, monospace; }
+  nav a, a { color: var(--accent); }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 56px 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+</style>
+</head>
+<body>
+<main>
+<nav class="muted"><a href="#en">English</a> · <a href="#ja">日本語</a></nav>
+
+<section id="en">
+<h1>AGY Remote — Privacy Policy</h1>
+<p class="muted">Effective November 27, 2026. Applies to the AGY Remote apps for iPhone, Apple Watch and Android, and to agy-connector.</p>
+
+<h2>In short</h2>
+<p>AGY Remote has no accounts, no analytics, no advertising and no tracking. Your chats, prompts, code and files go directly between your phone and your own computer, end-to-end encrypted. The developer does not collect or store them.</p>
+
+<h2>How the app connects</h2>
+<p>The app talks to <code>agy-connector</code>, which runs on your own computer. Pairing uses a code shown by the connector; the connection is encrypted end to end (QUIC/TLS) and authenticated with keys created on your devices.</p>
+<ul>
+  <li><strong>Finding your computer.</strong> To find each other, your phone and computer publish and look up their network addresses and public keys through the public Mainline DHT and the discovery service of the networking library (n0). These contain no chat content.</li>
+  <li><strong>Optional relay.</strong> If a direct connection is not possible, the app asks before it uses a public relay run by n0. The relay forwards encrypted data it cannot read, but it can see IP addresses and that your devices are communicating. You can turn this off in Settings.</li>
+</ul>
+
+<h2>Notifications (optional)</h2>
+<p>Notifications are off until you turn them on. When you do:</p>
+<ul>
+  <li>Your phone gives your computer its push token (from Apple or Google) and a random key that only your phone holds.</li>
+  <li>Your computer encrypts each notification with that key and sends a fixed-size encrypted message through our push relay (<code>noti.agy.yutorinatsu.moe</code>, a Cloudflare Worker) to Apple Push Notification service or Firebase Cloud Messaging.</li>
+  <li>So that only computers your phone chose can send to it, your phone asks the relay for grants for its paired computers. It sends the relay its push token and those computers' connector IDs over HTTPS, and the relay sends the grants back as a silent push to that push token (nothing is shown); your phone passes each on to its computer. The relay then also sees your phone's IP address.</li>
+  <li>The relay and Apple/Google see the push token, the time, the sender's connector ID and IP addresses — never the chat title or what was said. The relay does not store anything: a grant is a signature it can check again, and it only counts requests in memory (per connector ID, push token and network) to limit them.</li>
+  <li>Turning notifications off removes your phone from the computer's list.</li>
+</ul>
+
+<h2>Permissions</h2>
+<table>
+  <tr><th>Permission</th><th>Used for</th></tr>
+  <tr><td>Camera</td><td>Scanning the pairing QR code and taking photos you choose to attach. Images stay on your devices and are sent only to your computer.</td></tr>
+  <tr><td>Photos / files</td><td>Attaching items you pick to a message for your computer.</td></tr>
+  <tr><td>Microphone and speech recognition</td><td>Dictating a message. Speech is converted to text by the system's speech service (Apple on iPhone/Apple Watch, the system recognizer on Android), which may process audio under that provider's privacy policy. The app itself does not record or keep audio.</td></tr>
+  <tr><td>Local network</td><td>Connecting directly to your computer on the same network.</td></tr>
+  <tr><td>Notifications</td><td>Alerts when a task finishes, fails or needs your approval.</td></tr>
+</table>
+
+<h2>Data stored on your devices</h2>
+<p>The app keeps pairing information, its encryption keys, settings and cached chat lists on your phone (keys in the system keychain where available). agy-connector keeps its identity key, pairing token and registered push devices in its configuration folder on your computer. Removing the app or resetting it in Settings deletes the phone's data; unpairing removes the computer from the app.</p>
+
+<h2>Software updates</h2>
+<p>agy-connector checks GitHub Releases for signed updates unless you turn this off (<code>agy-connector set-auto-update off</code>). GitHub sees the request like any download.</p>
+
+<h2>Children</h2>
+<p>AGY Remote is a developer tool and is not directed at children.</p>
+
+<h2>Changes and contact</h2>
+<p>Changes to this policy are published at this address and in the <a href="https://github.com/NarYuki/agy-remote">source repository</a>. Questions: open an issue at <a href="https://github.com/NarYuki/agy-remote/issues">github.com/NarYuki/agy-remote/issues</a>.</p>
+</section>
+
+<hr>
+
+<section id="ja" lang="ja">
+<h1>AGY Remote プライバシーポリシー</h1>
+<p class="muted">2026年11月27日施行。iPhone・Apple Watch・Android 版 AGY Remote と agy-connector に適用されます。</p>
+
+<h2>概要</h2>
+<p>AGY Remote にはアカウント、アクセス解析、広告、トラッキングがありません。チャット、プロンプト、コード、ファイルは、スマートフォンとあなた自身のコンピュータの間でエンドツーエンドに暗号化されて直接やり取りされます。開発者がそれらを収集・保存することはありません。</p>
+
+<h2>接続のしくみ</h2>
+<p>アプリは、あなたのコンピュータで動く <code>agy-connector</code> と通信します。ペアリングにはコネクタが表示するコードを使い、通信はエンドツーエンドで暗号化（QUIC/TLS）され、各端末で作られた鍵で認証されます。</p>
+<ul>
+  <li><strong>コンピュータの検出。</strong> 互いを見つけるため、スマートフォンとコンピュータはネットワークアドレスと公開鍵を、公開の Mainline DHT とネットワークライブラリ開発元（n0）の検出サービスに登録・照会します。チャットの内容は含まれません。</li>
+  <li><strong>任意のリレー。</strong> 直接接続できない場合、アプリは n0 が運営する公開リレーを使う前に確認します。リレーは内容を読めない暗号化データを中継するだけですが、IP アドレスと端末同士が通信していることは把握できます。設定でオフにできます。</li>
+</ul>
+
+<h2>通知（任意）</h2>
+<p>通知はオンにするまで無効です。オンにすると：</p>
+<ul>
+  <li>スマートフォンは、Apple または Google のプッシュトークンと、スマートフォンだけが持つランダムな鍵をコンピュータに渡します。</li>
+  <li>コンピュータは各通知をその鍵で暗号化し、常に同じ大きさの暗号化メッセージとして、当方のプッシュ中継（<code>noti.agy.yutorinatsu.moe</code>、Cloudflare Worker）経由で Apple Push Notification service または Firebase Cloud Messaging に送ります。</li>
+  <li>スマートフォンが選んだコンピュータだけが送信できるように、スマートフォンはペアリングしたコンピュータ向けの許可証を中継へ求めます。HTTPS 経由で自身のプッシュトークンとそれらのコンピュータのコネクタの ID を中継に送ると、中継は許可証をそのプッシュトークン宛てのサイレントプッシュ（何も表示されません）として送り返し、スマートフォンはそれぞれを対応するコンピュータに渡します。このとき、中継はスマートフォンの IP アドレスも知ることになります。</li>
+  <li>中継と Apple/Google が知るのは、プッシュトークン、時刻、送信元コネクタの ID、IP アドレスだけで、チャット名や会話の内容は含まれません。中継は何も保存しません。許可証は後から検証できる署名であり、中継は回数制限のためにリクエスト数（コネクタ ID、プッシュトークン、ネットワークごと）をメモリ上で数えるだけです。</li>
+  <li>通知をオフにすると、コンピュータの一覧からそのスマートフォンが削除されます。</li>
+</ul>
+
+<h2>アクセス許可</h2>
+<table>
+  <tr><th>許可</th><th>用途</th></tr>
+  <tr><td>カメラ</td><td>ペアリング用 QR コードの読み取りと、添付する写真の撮影。画像は端末内にとどまり、あなたのコンピュータにだけ送られます。</td></tr>
+  <tr><td>写真・ファイル</td><td>選んだ項目をコンピュータへのメッセージに添付するため。</td></tr>
+  <tr><td>マイク・音声認識</td><td>メッセージの音声入力。音声の文字起こしは OS の音声認識サービス（iPhone/Apple Watch では Apple、Android ではシステムの認識機能）が行い、各提供元のプライバシーポリシーに従って音声が処理される場合があります。アプリ自体が音声を録音・保存することはありません。</td></tr>
+  <tr><td>ローカルネットワーク</td><td>同じネットワーク上のコンピュータへ直接接続するため。</td></tr>
+  <tr><td>通知</td><td>タスクの完了・失敗・承認待ちを知らせるため。</td></tr>
+</table>
+
+<h2>端末に保存されるデータ</h2>
+<p>アプリは、ペアリング情報、暗号鍵（可能な場合はシステムのキーチェーン）、設定、チャット一覧のキャッシュをスマートフォンに保存します。agy-connector は、識別用の鍵、ペアリングトークン、登録されたプッシュ先をコンピュータの設定フォルダに保存します。アプリを削除するか設定からリセットするとスマートフォンのデータは消え、ペアリング解除でアプリからコンピュータが削除されます。</p>
+
+<h2>ソフトウェア更新</h2>
+<p>agy-connector は、無効にしない限り（<code>agy-connector set-auto-update off</code>）、署名付きの更新を GitHub Releases に確認します。GitHub には通常のダウンロードと同様にリクエストが届きます。</p>
+
+<h2>子ども</h2>
+<p>AGY Remote は開発者向けツールであり、子どもを対象としていません。</p>
+
+<h2>変更とお問い合わせ</h2>
+<p>本ポリシーの変更は、このページと<a href="https://github.com/NarYuki/agy-remote">ソースリポジトリ</a>で公開します。お問い合わせは <a href="https://github.com/NarYuki/agy-remote/issues">github.com/NarYuki/agy-remote/issues</a> にどうぞ。</p>
+</section>
+</main>
+</body>
+</html>

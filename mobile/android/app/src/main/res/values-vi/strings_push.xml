@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="push_failed_title">%s — thất bại</string>
+    <string name="push_approval_needed">Cần phê duyệt</string>
+    <string name="push_you_can_reply_now">Giờ bạn có thể trả lời</string>
+    <string name="push_cli_released_body">%s: Đã giải phóng phiên agy CLI. Tiếp tục trên điện thoại của bạn.</string>
+    <string name="push_answer_needed">Cần trả lời</string>
+    <string name="push_failed_length">Phản hồi đã đạt giới hạn độ dài và bị cắt ngang.</string>
+    <string name="push_failed_steps">Tác nhân đã đạt giới hạn số bước trong một lượt.</string>
+    <string name="push_failed_refusal">Mô hình đã từ chối tiếp tục.</string>
+    <string name="push_failed_agy">agy không khả dụng trên máy tính.</string>
+    <string name="push_failed_open_in_cli">Cuộc trò chuyện này đang mở trong agy CLI. Hãy đóng ở đó để trả lời tại đây.</string>
+    <string name="push_failed_other">Đã xảy ra lỗi trên máy tính.</string>
+    <string name="push_new_activity">Hoạt động mới</string>
+    <string name="push_unavailable_on_x">%1$s: thông báo không khả dụng (%2$s)</string>
+    <string name="push_couldnt_turn_on">Không thể bật thông báo: %s</string>
+</resources>

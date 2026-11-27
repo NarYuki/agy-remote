@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="can_t_reach_your_computer_directly">تعذر الوصول إلى جهاز الكمبيوتر مباشرة</string>
+    <string name="your_network_may_be_blocking_a_direct_connectio">قد تحظر شبكتك الاتصال المباشر. يمكن لتطبيق AGY Remote تمرير الاتصال عبر خادم ترحيل عام. يظل الاتصال مشفرًا من طرف إلى طرف: لا يمكن لخادم الترحيل قراءته، لكنه يستطيع رؤية أن هاتفك وجهاز الكمبيوتر يتواصلان. يمكنك تغيير ذلك في الإعدادات.</string>
+    <string name="use_relay">استخدام خادم الترحيل</string>
+    <string name="reconnecting">جارٍ إعادة الاتصال…</string>
+    <string name="couldn_t_start_the_reply_on_the_computer">تعذر بدء الرد على جهاز الكمبيوتر.</string>
+</resources>

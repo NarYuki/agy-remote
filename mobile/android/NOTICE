@@ -1,0 +1,7 @@
+AGY Remote (Android)
+
+This product includes software from AndroidLiquidGlass / Backdrop
+(https://github.com/Kyant0/AndroidLiquidGlass), Copyright 2025 Kyant,
+licensed under the Apache License, Version 2.0 (third_party/AndroidLiquidGlass/LICENSE).
+Files adapted from its Backdrop Catalog live in
+app/src/main/java/moe/n4tsu/agyremote/ui/components/liquid/ and keep their original notices.

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="open_on_github">Mở trên GitHub</string>
+    <string name="source_code">Mã nguồn</string>
+    <string name="privacy_policy">Chính sách quyền riêng tư</string>
+    <string name="demo_badge">Demo</string>
+    <string name="menu">Menu</string>
+    <string name="jump_to_bottom">Xuống mới nhất</string>
+    <string name="limit_gauge">Giới hạn gói</string>
+    <string name="x_commands_from_agy">%d lệnh &amp; kỹ năng từ agy đã kết nối</string>
+    <string name="search_files">Tìm tệp</string>
+    <string name="search_commands">Tìm lệnh</string>
+    <string name="flow_phone">Điện thoại</string>
+    <string name="locked_until_phone">Được khóa cho đến khi tới điện thoại của bạn</string>
+    <string name="relay_alert_title">Dùng máy chủ chuyển tiếp?</string>
+    <string name="relay_alert_text">Không thể kết nối trực tiếp tới %s. AGY Remote có thể truyền kết nối qua một máy chủ chuyển tiếp công khai. Kết nối vẫn được mã hóa đầu cuối.</string>
+    <string name="relay_alert_allow">Dùng máy chủ chuyển tiếp</string>
+    <string name="error_generic">Đã xảy ra lỗi</string>
+    <string name="protocol_update_app">Cập nhật AGY Remote để dùng trình kết nối của máy tính này.</string>
+    <string name="protocol_update_connector">Cập nhật agy-connector trên máy tính của bạn để dùng ứng dụng này.</string>
+    <string name="low_limit_x">Còn lại %d%% giới hạn gói của bạn</string>
+    <string name="open_in_cli_short">Mở trong CLI</string>
+    <string name="use_a_tool">Dùng công cụ</string>
+    <string name="x_more">… thêm %d nữa</string>
+    <string name="connector_too_old_footer">Ứng dụng này cần agy-connector %s trở lên. Trên máy tính này, hãy chạy agy-connector update rồi khởi động lại.</string>
+    <string name="unpair_confirm_title">Hủy ghép nối %1$s?</string>
+    <string name="unpair_confirm_message">Bạn sẽ cần quét lại mã ghép nối để kết nối lại.</string>
+    <string name="licenses_android_libraries">Thư viện Android</string>
+    <string name="licenses_native_libraries">Thư viện gốc (Rust)</string>
+    <string name="licenses_search">Tìm thư viện</string>
+    <string name="licenses_author">Tác giả</string>
+    <string name="licenses_source">Nguồn</string>
+    <string name="licenses_license_text">Nội dung giấy phép</string>
+    <string name="licenses_notice">Thông báo</string>
+    <string name="licenses_no_results">Không có kết quả</string>
+    <string name="model_label_a11y">Mô hình: %s</string>
+    <string name="mode_label_a11y">Chế độ: %s</string>
+    <string name="workspace_files">Tệp không gian làm việc</string>
+    <string name="filter_files">Lọc tệp…</string>
+    <string name="loading_workspace_files">Đang tải tệp không gian làm việc…</string>
+    <string name="loading_workspace_files_from_x">Đang tải tệp không gian làm việc từ %s…</string>
+    <string name="no_matching_files">Không có tệp phù hợp</string>
+    <string name="attach_files_from_your_computer">Đính kèm tệp từ máy tính của bạn</string>
+    <string name="search_commands_skills">Tìm kiếm lệnh &amp; kỹ năng…</string>
+</resources>

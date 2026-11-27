@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="push_failed_title">%s — mislukt</string>
+    <string name="push_approval_needed">Goedkeuring vereist</string>
+    <string name="push_you_can_reply_now">Je kunt nu antwoorden</string>
+    <string name="push_cli_released_body">%s: agy CLI-sessie vrijgegeven. Ga verder op je telefoon.</string>
+    <string name="push_answer_needed">Antwoord nodig</string>
+    <string name="push_failed_length">Het antwoord heeft de lengtelimiet bereikt en is afgekapt.</string>
+    <string name="push_failed_steps">De agent heeft het maximale aantal stappen voor één beurt bereikt.</string>
+    <string name="push_failed_refusal">Het model weigerde verder te gaan.</string>
+    <string name="push_failed_agy">agy is niet beschikbaar op de computer.</string>
+    <string name="push_failed_open_in_cli">Deze chat is geopend in de agy CLI. Sluit deze daar om hier te antwoorden.</string>
+    <string name="push_failed_other">Er is iets misgegaan op de computer.</string>
+    <string name="push_new_activity">Nieuwe activiteit</string>
+    <string name="push_unavailable_on_x">%1$s: meldingen niet beschikbaar (%2$s)</string>
+    <string name="push_couldnt_turn_on">Kan meldingen niet inschakelen: %s</string>
+</resources>

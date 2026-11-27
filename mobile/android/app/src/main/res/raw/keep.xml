@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Texts.get and Composer's pasteText look strings up by name (getIdentifier), which the resource
+     shrinker can't see. Unused strings are pruned at the source (tools/convert_xcstrings.py), so
+     every string that's left is used: keep them all. -->
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@string/*,@plurals/*"
+    tools:shrinkMode="safe" />

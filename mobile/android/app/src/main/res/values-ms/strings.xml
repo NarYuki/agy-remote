@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="open_on_github">Buka di GitHub</string>
+    <string name="source_code">Kod Sumber</string>
+    <string name="privacy_policy">Dasar Privasi</string>
+    <string name="demo_badge">Demo</string>
+    <string name="menu">Menu</string>
+    <string name="jump_to_bottom">Pergi ke terkini</string>
+    <string name="limit_gauge">Had pelan</string>
+    <string name="x_commands_from_agy">%d arahan &amp; kemahiran daripada agy yang disambungkan</string>
+    <string name="search_files">Cari fail</string>
+    <string name="search_commands">Cari arahan</string>
+    <string name="flow_phone">Telefon</string>
+    <string name="locked_until_phone">Dikunci sehingga sampai ke telefon anda</string>
+    <string name="relay_alert_title">Gunakan geganti?</string>
+    <string name="relay_alert_text">%s tidak dapat dicapai secara langsung. AGY Remote boleh menyalurkan sambungan melalui geganti awam. Ia kekal disulitkan hujung ke hujung.</string>
+    <string name="relay_alert_allow">Gunakan Geganti</string>
+    <string name="error_generic">Sesuatu tidak kena</string>
+    <string name="protocol_update_app">Kemas kini AGY Remote untuk menggunakan penyambung komputer ini.</string>
+    <string name="protocol_update_connector">Kemas kini agy-connector pada komputer anda untuk menggunakan apl ini.</string>
+    <string name="low_limit_x">Tinggal %d%% daripada had pelan anda</string>
+    <string name="open_in_cli_short">Buka dalam CLI</string>
+    <string name="use_a_tool">Gunakan alat</string>
+    <string name="x_more">… %d lagi</string>
+    <string name="connector_too_old_footer">Aplikasi ini memerlukan agy-connector %s atau lebih baharu. Pada komputer ini, jalankan agy-connector update, kemudian mulakannya semula.</string>
+    <string name="unpair_confirm_title">Nyahgandingkan %1$s?</string>
+    <string name="unpair_confirm_message">Anda perlu mengimbas kod gandingannya sekali lagi untuk menyambung semula.</string>
+    <string name="licenses_android_libraries">Pustaka Android</string>
+    <string name="licenses_native_libraries">Pustaka natif (Rust)</string>
+    <string name="licenses_search">Cari pustaka</string>
+    <string name="licenses_author">Pengarang</string>
+    <string name="licenses_source">Sumber</string>
+    <string name="licenses_license_text">Teks lesen</string>
+    <string name="licenses_notice">Notis</string>
+    <string name="licenses_no_results">Tiada hasil</string>
+    <string name="model_label_a11y">Model: %s</string>
+    <string name="mode_label_a11y">Mod: %s</string>
+    <string name="workspace_files">Fail Ruang Kerja</string>
+    <string name="filter_files">Tapis fail…</string>
+    <string name="loading_workspace_files">Memuatkan fail ruang kerja…</string>
+    <string name="loading_workspace_files_from_x">Memuatkan fail ruang kerja daripada %s…</string>
+    <string name="no_matching_files">Tiada fail yang sepadan</string>
+    <string name="attach_files_from_your_computer">Lampirkan fail daripada komputer anda</string>
+    <string name="search_commands_skills">Cari perintah &amp; kemahiran…</string>
+</resources>

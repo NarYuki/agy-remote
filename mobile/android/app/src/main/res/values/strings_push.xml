@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Notification texts, from the iOS NotificationService string catalog. -->
+<resources>
+    <string name="push_failed_title">%s — failed</string>
+    <string name="push_approval_needed">Approval needed</string>
+    <string name="push_you_can_reply_now">You can reply now</string>
+    <string name="push_cli_released_body">%s: agy CLI session released. Continue it from your phone.</string>
+    <string name="push_answer_needed">Answer needed</string>
+    <string name="push_failed_length">The reply hit its length limit and was cut off.</string>
+    <string name="push_failed_steps">The agent reached its step limit for one turn.</string>
+    <string name="push_failed_refusal">The model declined to continue.</string>
+    <string name="push_failed_agy">agy isn\'t available on the computer.</string>
+    <string name="push_failed_open_in_cli">This chat is open in the agy CLI. Close it there to reply here.</string>
+    <string name="push_failed_other">Something went wrong on the computer.</string>
+    <string name="push_new_activity">New activity</string>
+    <string name="push_unavailable_on_x">%1$s: notifications unavailable (%2$s)</string>
+    <string name="push_couldnt_turn_on">Couldn\'t turn on notifications: %s</string>
+</resources>

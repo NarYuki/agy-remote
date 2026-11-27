@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="open_on_github">GitHub-та ашу</string>
+    <string name="source_code">Бастапқы код</string>
+    <string name="privacy_policy">Құпиялылық саясаты</string>
+    <string name="demo_badge">Демо</string>
+    <string name="menu">Мәзір</string>
+    <string name="jump_to_bottom">Соңғысына өту</string>
+    <string name="limit_gauge">Тариф лимиті</string>
+    <string name="x_commands_from_agy">Қосылған agy-дан %d пәрмен мен дағды</string>
+    <string name="search_files">Файлдарды іздеу</string>
+    <string name="search_commands">Пәрмендерді іздеу</string>
+    <string name="flow_phone">Телефон</string>
+    <string name="locked_until_phone">Телефоныңызға жеткенше құлыптаулы</string>
+    <string name="relay_alert_title">Ретранслятор қолданылсын ба?</string>
+    <string name="relay_alert_text">%s құрылғысына тікелей қосылу мүмкін емес. AGY Remote байланысты жалпыға ортақ ретранслятор арқылы өткізе алады. Өтпелі шифрлау сақталады.</string>
+    <string name="relay_alert_allow">Ретрансляторды қолдану</string>
+    <string name="error_generic">Бірдеңе дұрыс болмады</string>
+    <string name="protocol_update_app">Осы компьютердің коннекторын пайдалану үшін AGY Remote қолданбасын жаңартыңыз.</string>
+    <string name="protocol_update_connector">Бұл қолданбаны пайдалану үшін компьютеріңіздегі agy-connector бағдарламасын жаңартыңыз.</string>
+    <string name="low_limit_x">Тариф лимитінен %d%% қалды</string>
+    <string name="open_in_cli_short">CLI ішінде ашу</string>
+    <string name="use_a_tool">Құралды пайдалану</string>
+    <string name="x_more">… тағы %d</string>
+    <string name="connector_too_old_footer">Бұл қолданбаға agy-connector %s немесе одан жаңа нұсқасы қажет. Осы компьютерде agy-connector update пәрменін орындап, содан кейін оны қайта іске қосыңыз.</string>
+    <string name="unpair_confirm_title">%1$s құрылғысымен жұптау ажыратылсын ба?</string>
+    <string name="unpair_confirm_message">Қайта қосылу үшін оның жұптау кодын қайта сканерлеу қажет болады.</string>
+    <string name="licenses_android_libraries">Android кітапханалары</string>
+    <string name="licenses_native_libraries">Нативті (Rust) кітапханалар</string>
+    <string name="licenses_search">Кітапханаларды іздеу</string>
+    <string name="licenses_author">Автор</string>
+    <string name="licenses_source">Дереккөз</string>
+    <string name="licenses_license_text">Лицензия мәтіні</string>
+    <string name="licenses_notice">Ескертпе</string>
+    <string name="licenses_no_results">Нәтиже жоқ</string>
+    <string name="model_label_a11y">Модель: %s</string>
+    <string name="mode_label_a11y">Режим: %s</string>
+    <string name="workspace_files">Жұмыс кеңістігінің файлдары</string>
+    <string name="filter_files">Файлдарды сүзгілеу…</string>
+    <string name="loading_workspace_files">Жұмыс кеңістігінің файлдары жүктелуде…</string>
+    <string name="loading_workspace_files_from_x">Жұмыс кеңістігінің файлдары %s ішінен жүктелуде…</string>
+    <string name="no_matching_files">Сәйкес файлдар жоқ</string>
+    <string name="attach_files_from_your_computer">Компьютеріңізден файлдар тіркеу</string>
+    <string name="search_commands_skills">Пәрмендер мен дағдыларды іздеу…</string>
+</resources>

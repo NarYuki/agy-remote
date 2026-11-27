@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated with the agy CLI (scripts/agy_localize.py). -->
+<resources>
+    <string name="can_t_reach_your_computer_directly">Не удаётся подключиться к компьютеру напрямую</string>
+    <string name="your_network_may_be_blocking_a_direct_connectio">Возможно, ваша сеть блокирует прямое подключение. AGY Remote может направить соединение через публичный ретранслятор. Сквозное шифрование сохраняется: ретранслятор не может прочитать содержимое, но видит, что телефон и компьютер обмениваются данными. Это можно изменить в Настройках.</string>
+    <string name="use_relay">Использовать ретранслятор</string>
+    <string name="reconnecting">Переподключение…</string>
+    <string name="couldn_t_start_the_reply_on_the_computer">Не удалось начать ответ на компьютере.</string>
+</resources>
