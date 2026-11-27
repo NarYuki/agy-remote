@@ -1,23 +1,29 @@
 # AGY Remote
 
-Control the agy CLI (Google Antigravity) on your computer from your iPhone, peer to peer.
+Control the agy CLI (Google Antigravity) on your computer from your iPhone, Apple Watch or Android
+phone, peer to peer. Chats, approvals (Allow / Deny from the notification), file attachments and
+usage all go straight between the phone and the computer over an end-to-end encrypted iroh QUIC
+connection; the push relay only ever sees encrypted, fixed-size notifications.
+
+- iOS: [AGY Remote for Antigravity](https://apps.apple.com/app/id6839454324) (iOS 26, with a watchOS 26 app and complications)
+- Android: [Google Play](https://play.google.com/store/apps/details?id=moe.n4tsu.agyremote) (Android 12+)
+- Connector: macOS, Linux and Windows (x86_64 / arm64)
 
 | Folder | What it is |
 | --- | --- |
 | `server/` | Rust Cargo workspace: `agy-connector` (the computer side: talks to `agy acp`, serves the app over iroh QUIC), the shared `agy-p2p-common`, the mobile bindings `agy-p2p-ffi` (iOS) and `agy-p2p-jni` (Android), and `vendor/` (patched `netdev`/`netwatch`, used via `[patch.crates-io]`) |
-| `mobile/ios/` | iOS app (SwiftUI, iOS 26): `Sources/`, `NotificationService/` (decrypts pushes), `Shared/` (push crypto), `project.yml` (xcodegen) |
+| `mobile/ios/` | iOS app (SwiftUI, iOS 26): `Sources/`, `NotificationService/` (decrypts pushes), `Shared/` (push crypto), `Watch*/` (watchOS app, widgets/complications), `project.yml` (xcodegen) |
 | `mobile/android/` | Android app (Kotlin, Jetpack Compose) |
 | `relay/` | Open-source push relay (Cloudflare Worker, AGPL-3.0) |
 | `docs/` | Protocol, connector bridge design, localization, Android push setup |
 
 ## Status
 
-The iOS app, the Android app, `agy-connector` and the push relay all build and run. The apps are
-being prepared for the App Store and Google Play.
+App 1.2.0 (iOS / Android) and `agy-connector` 0.2.7 are the current releases.
 
 ## Install the connector
 
-The connector runs on the computer that has the agy CLI (macOS or Linux, x86_64 or arm64). It
+The connector runs on the computer that has the agy CLI. On macOS or Linux (x86_64 or arm64) it
 installs to `~/.local/bin` and needs no sudo:
 
 ```sh
@@ -33,8 +39,16 @@ To keep it running in the background (a LaunchAgent on macOS, a `systemd --user`
 curl -fsSL https://n4t.su/agy/ | sh -s -- --service
 ```
 
-The installer downloads the latest GitHub Release for your OS and CPU and checks its SHA-256
-before installing. The Linux builds are static, so they run on any distribution.
+On Windows (PowerShell; installs to `%LOCALAPPDATA%\Programs\agy-connector`, add `-Service` when
+run as a file to start it at login):
+
+```powershell
+irm https://raw.githubusercontent.com/NarYuki/agy-remote/main/server/scripts/install.ps1 | iex
+```
+
+The installers download the latest GitHub Release for your OS and CPU, check that its manifest is
+signed by the release key (Ed25519) and that the download matches the SHA-256 in it. The Linux
+builds are static, so they run on any distribution.
 
 Pairing: `agy-connector pair` shows a one-time code (QR or text) that works once, for ten
 minutes. It holds the computer's address and a secret, no token. After the phone scans it, the
@@ -46,7 +60,9 @@ remove one with `agy-connector unpair <id>`, or unpair every phone with
 without asking) can be picked on the phone; forbid it on this computer with
 `agy-connector set-turbo off`. Chats started in your home folder or `/` are not offered for
 file attachments unless you add that folder with `agy-connector add-workspace`. Installs from the release update
-themselves (set `"auto_update": false` in `~/.config/agy-connector/config.json` to turn that off).
+themselves after checking the same signature (`agy-connector set-auto-update off` turns that off,
+`agy-connector update` checks now). `agy-connector check` tests the connection to agy, and
+`agy-connector set-relay` points notifications at your own push relay.
 
 ## Building from source
 
