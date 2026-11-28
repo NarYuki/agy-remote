@@ -19,7 +19,15 @@ connection; the push relay only ever sees encrypted, fixed-size notifications.
 
 ## Status
 
-App 1.2.0 (iOS / Android) and `agy-connector` 0.2.7 are the current releases.
+App 1.2.0 is **under review** on both the App Store and Google Play; the store links above work
+once it is approved. `agy-connector` 0.2.7 is the current connector release.
+
+Until then, builds of the app are attached to the
+[app-v1.2.0 release](https://github.com/NarYuki/agy-remote/releases/tag/app-v1.2.0):
+
+- `AGYRemote-1.2.0-unsigned.ipa`: unsigned iOS build; sign it yourself (for example with your own
+  Apple developer account) to install it.
+- `AGYRemote-1.2.0.apk`: signed Android build, installable directly.
 
 ## Install the connector
 
