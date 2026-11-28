@@ -1704,6 +1704,16 @@ final class RemoteWorkspaceViewModel {
         if fromComposer {
             draft = ""
             draftAttachments = []
+            // The keyboard can commit unconfirmed (marked) text, such as Japanese input, back into
+            // the field just after it is cleared; clear it again if what was sent comes back.
+            let sent = text
+            Task { @MainActor [weak self] in
+                for _ in 0..<3 {
+                    try? await Task.sleep(for: .milliseconds(60))
+                    guard let self else { return }
+                    if self.draft == sent || (!sent.isEmpty && sent.hasPrefix(self.draft) && !self.draft.isEmpty) { self.draft = "" }
+                }
+            }
         }
         var folder = selectedChat?.folder
         if folder == nil, let current = currentFolder, current.host == target.id { folder = current.path }

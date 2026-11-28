@@ -350,7 +350,8 @@ struct ComposerAreaView: View {
 
     private func submit() {
         guard canSubmit, !running else { return }
-        dictation.stop()
+        // cancel, not stop: stop lets a final transcript arrive after the send and refill the field.
+        dictation.cancel()
         dictatedDraft = nil
         viewModel.send()
     }
